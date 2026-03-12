@@ -1,0 +1,1898 @@
+@prefix ascl:   <https://www.abs.gov.au/statistics/classifications/ascl/> .
+@prefix asclcs: <https://www.abs.gov.au/statistics/classifications/ascl> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+
+ascl:11 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Aboriginal and Torres Strait Islander Languages"@en .
+ascl:15 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Afro-Asiatic Languages"@en .
+ascl:111118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Arandic Languages"@en .
+ascl:1711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Atlantic Congo Languages"@en .
+ascl:25 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austro-Asiatic Languages"@en .
+ascl:2511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austro-Asiatic Languages"@en .
+ascl:251111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austro-Asiatic Languages"@en .
+ascl:27 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austronesian Languages"@en .
+ascl:131511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Baltic Languages"@en .
+ascl:1315 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Balto-Slavic Languages"@en .
+ascl:111123 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bandjalangic Languages"@en .
+ascl:111811 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bininj Kunwok Languages"@en .
+ascl:111711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bringen-Wagaydy Languages"@en .
+ascl:1113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bunaban Languages"@en .
+ascl:111311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bunabic Languages"@en .
+ascl:1311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Celtic Languages"@en .
+ascl:151111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central Semitic Languages"@en .
+ascl:271114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central-Eastern Malayo-Polynesian Languages"@en .
+ascl:2311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Chinese Languages"@en .
+ascl:231111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Chinese Languages"@en .
+ascl:1211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Creoles"@en .
+ascl:12 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Creoles and Pidgins"@en .
+ascl:1512 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cushitic Languages"@en .
+ascl:1117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Daly Languages"@en .
+ascl:1115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djeragan Languages"@en .
+ascl:111511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djeragan Languages"@en .
+ascl:21 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dravidian Languages"@en .
+ascl:111133 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Durubulic Languages"@en .
+ascl:111127 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dyirbalic Languages"@en .
+ascl:151211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "East Cushitic Languages"@en .
+ascl:171212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Mande Languages"@en .
+ascl:1612 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Turkic Languages"@en .
+ascl:161211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Turkic Languages"@en .
+ascl:121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "English based Creoles"@en .
+ascl:111812 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Enindhilyagwa Languages"@en .
+ascl:141111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Finnic Languages"@en .
+ascl:121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "French based Creoles"@en .
+ascl:112311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Garawan Languages "@en .
+ascl:1312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Germanic Languages"@en .
+ascl:271111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greater Central Philippine Languages"@en .
+ascl:1314 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greek Languages"@en .
+ascl:131411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greek Languages"@en .
+ascl:111134 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gumbaynggaric Languages"@en .
+ascl:1118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gunwinyguan Languages"@en .
+ascl:24 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong-Mien Languages"@en .
+ascl:2411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong-Mien Languages"@en .
+ascl:241111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong-Mien Languages"@en .
+ascl:131612 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indo-Aryan Languages"@en .
+ascl:13 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indo-European Languages"@en .
+ascl:1316 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indo-Iranian Languages"@en .
+ascl:131111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Insular Languages"@en .
+ascl:9198 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Invented Languages"@en .
+ascl:919811 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Invented Languages"@en .
+ascl:131611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iranian Languages"@en .
+ascl:1313 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Italic Languages"@en .
+ascl:1121 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iwaidjan Languages"@en .
+ascl:112111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iwaidjan Languages"@en .
+ascl:231212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karenic Languages"@en .
+ascl:111132 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karnic Languages"@en .
+ascl:26 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kra-Dai Languages"@en .
+ascl:2611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kra-Dai Languages"@en .
+ascl:261111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kra-Dai Languages"@en .
+ascl:231211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuki Chin Languages"@en .
+ascl:111137 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kulinic Languages"@en .
+ascl:2211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Language isolates"@en .
+ascl:221111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Language isolates"@en .
+ascl:22 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Language isolates "@en .
+ascl:271113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malayo-Chamic Languages"@en .
+ascl:2711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malayo-Polynesian Languages"@en .
+ascl:1712 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mande Languages"@en .
+ascl:1122 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maningrida Languages"@en .
+ascl:112211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maningrida Languages"@en .
+ascl:111128 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maric Languages"@en .
+ascl:1116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mirndi Languages"@en .
+ascl:111611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mirndi Languages"@en .
+ascl:111712 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Murrinh-Patha Languages"@en .
+ascl:1181 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "New and Contact Languages"@en .
+ascl:118111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "New and Contact Languages"@en .
+ascl:17 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Niger-Congo Languages"@en .
+ascl:18 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nilo-Saharan Languages"@en .
+ascl:9199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Non verbal, so described"@en .
+ascl:919911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Non verbal, so described"@en .
+ascl:131212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "North Germanic Languages"@en .
+ascl:271112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Northern Luzon Languages"@en .
+ascl:1112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyulnyulan Languages"@en .
+ascl:111211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyulnyulan Languages"@en .
+ascl:1199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Aboriginal and Torres Strait Islander Languages"@en .
+ascl:119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Aboriginal and Torres Strait Islander Languages"@en .
+ascl:1599 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Afro-Asiatic Languages"@en .
+ascl:159999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Afro-Asiatic Languages"@en .
+ascl:171199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Atlantic Congo Languages"@en .
+ascl:2799 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Austronesian Languages"@en .
+ascl:279999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Austronesian Languages"@en .
+ascl:131599 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Balto-Slavic Languages"@en .
+ascl:121199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Creoles"@en .
+ascl:151299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Cushitic Languages"@en .
+ascl:111799 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Daly Languages"@en .
+ascl:2199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Dravidian Languages"@en .
+ascl:219999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Dravidian Languages"@en .
+ascl:111899 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Gunwinyguan Languages"@en .
+ascl:1399 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-European Languages"@en .
+ascl:139999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-European Languages"@en .
+ascl:131699 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-Iranian Languages"@en .
+ascl:131399 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Italic Languages"@en .
+ascl:9111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Languages"@en .
+ascl:911111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Languages"@en .
+ascl:91 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Languages "@en .
+ascl:271199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Malayo-Polynesian Languages"@en .
+ascl:1799 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Niger Congo Languages"@en .
+ascl:179999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Niger Congo Languages"@en .
+ascl:1899 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Nilo-Saharan Languages"@en .
+ascl:189999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Nilo-Saharan Languages"@en .
+ascl:111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Pama-Nyungan Languages"@en .
+ascl:111116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other South West Languages"@en .
+ascl:231299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Tibeto-Burman Languages"@en .
+ascl:1699 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Turkic Languages"@en .
+ascl:169999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Turkic Languages"@en .
+ascl:1499 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Uralic Languages"@en .
+ascl:149999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Uralic Languages"@en .
+ascl:1111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pama-Nyungan Languages"@en .
+ascl:111124 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Paman Languages"@en .
+ascl:1212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pidgin Languages"@en .
+ascl:121211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pidgin Languages"@en .
+ascl:131311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Romance Languages"@en .
+ascl:1811 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Satellite Core Languages"@en .
+ascl:181111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Satellite Core Languages"@en .
+ascl:1511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Semitic Languages"@en .
+ascl:9171 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sign Languages"@en .
+ascl:917111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sign Languages"@en .
+ascl:23 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sino-Tibetan Languages"@en .
+ascl:131512 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Slavic Languages"@en .
+ascl:151112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South Semitic Languages"@en .
+ascl:111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Coastal and Inland Ngayarta"@en .
+ascl:111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Marngu"@en .
+ascl:111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Northern Desert Fringe"@en .
+ascl:111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Western Desert"@en .
+ascl:2111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Dravidian Languages"@en .
+ascl:211111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Dravidian Languages"@en .
+ascl:1611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Turkic Languages"@en .
+ascl:161111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Turkic Languages"@en .
+ascl:111122 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tangic Languages"@en .
+ascl:111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Thura-Yura Languages"@en .
+ascl:2312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tibeto-Burman Languages"@en .
+ascl:16 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Turkic Languages"@en .
+ascl:14 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Uralic Languages"@en .
+ascl:1411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Uralic Languages"@en .
+ascl:171111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Volta Congo Languages"@en .
+ascl:111117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wadjari Languages"@en .
+ascl:111131 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Waka-Kabic Languages"@en .
+ascl:131211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "West Germanic Languages"@en .
+ascl:171211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Mande Languages"@en .
+ascl:231213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Tibeto-Burman Languages"@en .
+ascl:111135 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wiradhuric Languages"@en .
+ascl:1114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Worrorran Languages"@en .
+ascl:111411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Worrorran Languages"@en .
+ascl:111125 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yalandyic Languages"@en .
+ascl:1123 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yanyi Languages"@en .
+ascl:111126 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yidinyic Languages"@en .
+ascl:111121 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yolngu Languages"@en .
+ascl:111136 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yuin-Kuric Languages"@en .
+ascl:11111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Adnyamathanha"@en .
+ascl:11111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Barngarla"@en .
+ascl:11111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kaurna"@en .
+ascl:11111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Narungga"@en .
+ascl:11111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nukunu"@en .
+ascl:11111211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Antikarinya"@en .
+ascl:11111212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kokatha"@en .
+ascl:11111213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kukatja"@en .
+ascl:11111214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Luritja"@en .
+ascl:11111215 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Manyjilyjarra"@en .
+ascl:11111216 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Martu Wangka"@en .
+ascl:11111217 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngaanyatjarra"@en .
+ascl:11111218 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pintupi"@en .
+ascl:11111221 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pitjantjatjara"@en .
+ascl:11111222 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tjupan"@en .
+ascl:11111223 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wangkajunga"@en .
+ascl:11111224 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wangkatha"@en .
+ascl:11111225 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Warnman"@en .
+ascl:11111226 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yankunytjatjara"@en .
+ascl:11111227 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yulparija"@en .
+ascl:11111299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Western Desert, nec"@en .
+ascl:11111311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Banyjima"@en .
+ascl:11111312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kariyarra"@en .
+ascl:11111313 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngarla"@en .
+ascl:11111314 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngarluma"@en .
+ascl:11111315 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyamal"@en .
+ascl:11111316 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Palyku"@en .
+ascl:11111317 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yindjibarndi"@en .
+ascl:11111318 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yinhawangka"@en .
+ascl:11111411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mangala"@en .
+ascl:11111412 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karajarri"@en .
+ascl:11111413 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyangumarta"@en .
+ascl:11111511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gurindji"@en .
+ascl:11111512 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jaru"@en .
+ascl:11111513 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mudburra"@en .
+ascl:11111514 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngarinyman"@en .
+ascl:11111515 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Walmajarri"@en .
+ascl:11111516 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Warlmanpa"@en .
+ascl:11111517 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Warlpiri"@en .
+ascl:11111599 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Northern Desert Fringe, nec"@en .
+ascl:11111611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mirniny"@en .
+ascl:11111612 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Noongar"@en .
+ascl:11111613 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Thalandji"@en .
+ascl:11111699 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other South West Languages, nec"@en .
+ascl:11111711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Badimaya"@en .
+ascl:11111712 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wajarri"@en .
+ascl:11111811 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Alyawarr"@en .
+ascl:11111812 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Anmatyerr"@en .
+ascl:11111813 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Arrernte"@en .
+ascl:11111814 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kaytetye"@en .
+ascl:11111815 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Arrarnta"@en .
+ascl:11112111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhay'yi"@en .
+ascl:11112112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhuwal"@en .
+ascl:11112113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhuwaya"@en .
+ascl:11112114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djambarrpuyngu"@en .
+ascl:11112115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djinang"@en .
+ascl:11112116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djinba"@en .
+ascl:11112117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Golpa"@en .
+ascl:11112118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gumatj"@en .
+ascl:11112121 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gupapuyngu"@en .
+ascl:11112122 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ritharrngu"@en .
+ascl:11112123 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yan-nhangu "@en .
+ascl:11112124 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yolngu Matha"@en .
+ascl:11112199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yolngu Languages, nec"@en .
+ascl:11112211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kayardild"@en .
+ascl:11112212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Lardil"@en .
+ascl:11112213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ganggalidda"@en .
+ascl:11112311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bandjalung"@en .
+ascl:11112312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yugambeh"@en .
+ascl:11112411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Koko-Bera"@en .
+ascl:11112412 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kugu Nganhcara "@en .
+ascl:11112413 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuuk Thayorre"@en .
+ascl:11112414 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuuku-Ya'u"@en .
+ascl:11112415 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Morrobalama"@en .
+ascl:11112416 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wik Mungkan"@en .
+ascl:11112417 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wik Ngathan"@en .
+ascl:11112418 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yir Yoront"@en .
+ascl:11112499 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Paman Languages, nec"@en .
+ascl:11112511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Guugu Yimidhirr"@en .
+ascl:11112512 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuku Yalanji"@en .
+ascl:11112611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djabugay"@en .
+ascl:11112612 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yidiny"@en .
+ascl:11112711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dyirbal"@en .
+ascl:11112712 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Warrgamay"@en .
+ascl:11112811 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Biri"@en .
+ascl:11112812 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gudjal"@en .
+ascl:11112813 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gunggari"@en .
+ascl:11112814 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mandandanji"@en .
+ascl:11112815 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yirendali"@en .
+ascl:11112899 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maric Languages, nec"@en .
+ascl:11113111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Butchulla"@en .
+ascl:11113112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kabi Kabi"@en .
+ascl:11113113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wakka Wakka"@en .
+ascl:11113199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Waka-Kabic Languages, nec"@en .
+ascl:11113211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Arabana"@en .
+ascl:11113212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bidjara"@en .
+ascl:11113213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dieri"@en .
+ascl:11113214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karuwali"@en .
+ascl:11113215 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kullilli"@en .
+ascl:11113216 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wangkangurru"@en .
+ascl:11113299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karnic Languages, nec"@en .
+ascl:11113311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jandai"@en .
+ascl:11113312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yuggera"@en .
+ascl:11113399 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Durubulic Languages, nec"@en .
+ascl:11113411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gumbaynggir"@en .
+ascl:11113412 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yaygirr"@en .
+ascl:11113511 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bigambul"@en .
+ascl:11113512 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gamilaraay"@en .
+ascl:11113513 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngiyampaa"@en .
+ascl:11113514 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wiradjuri"@en .
+ascl:11113611 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Anaiwan"@en .
+ascl:11113612 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Awabakal"@en .
+ascl:11113613 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Darkinyung"@en .
+ascl:11113614 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhanggatti"@en .
+ascl:11113615 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dharawal"@en .
+ascl:11113616 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dharug"@en .
+ascl:11113617 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhurga"@en .
+ascl:11113618 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gathang (Birrbay/Worimi)"@en .
+ascl:11113621 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gundungurra/Gandangara"@en .
+ascl:11113622 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngunawal"@en .
+ascl:11113699 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yuin-Kuric Languages, nec"@en .
+ascl:11113711 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djab Wurrung"@en .
+ascl:11113712 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Keerray-Woorroong"@en .
+ascl:11113713 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wemba Wemba"@en .
+ascl:11113714 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wergaia"@en .
+ascl:11113715 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Woiwurrung"@en .
+ascl:11113799 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kulinic Languages, nec"@en .
+ascl:11119911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kalaw Lagaw Ya"@en .
+ascl:11119912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kalkatungu/Kalkadoon"@en .
+ascl:11119913 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kurnai"@en .
+ascl:11119914 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mununjali"@en .
+ascl:11119915 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Muruwari"@en .
+ascl:11119916 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngarrindjeri"@en .
+ascl:11119917 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Paakantyi"@en .
+ascl:11119918 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Warumungu"@en .
+ascl:11119921 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yanyuwa"@en .
+ascl:11119922 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yorta Yorta"@en .
+ascl:11119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Pama-Nyungan Languages, nec"@en .
+ascl:11121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bardi"@en .
+ascl:11121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jugun"@en .
+ascl:11121113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyikina"@en .
+ascl:11121114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yawuru"@en .
+ascl:11121199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyulnyulan Languages, nec"@en .
+ascl:11131111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bunuba"@en .
+ascl:11131112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gooniyandi"@en .
+ascl:11141111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngarinyin"@en .
+ascl:11141112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Worrorra"@en .
+ascl:11141113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wunambal"@en .
+ascl:11151111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gija"@en .
+ascl:11151112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Miriwoong"@en .
+ascl:11161111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jaminjung"@en .
+ascl:11161112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jingulu"@en .
+ascl:11161113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngaliwurru"@en .
+ascl:11161114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nungali"@en .
+ascl:11161115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wambayan"@en .
+ascl:11171111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mari Ngarr"@en .
+ascl:11171112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Marramaninyshi"@en .
+ascl:11171113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Marrithiyel"@en .
+ascl:11171211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Murrinh Patha"@en .
+ascl:11171212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngan'gi"@en .
+ascl:11179911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malak Malak"@en .
+ascl:11179999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Daly Languages, nec"@en .
+ascl:11181111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gundjeihmi"@en .
+ascl:11181112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kune"@en .
+ascl:11181113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuninjku"@en .
+ascl:11181114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kunwinjku"@en .
+ascl:11181115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mayali"@en .
+ascl:11181211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Anindilyakwa"@en .
+ascl:11181212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngandi"@en .
+ascl:11181213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wubuy"@en .
+ascl:11189911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dalabon"@en .
+ascl:11189912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Jawoyn"@en .
+ascl:11189913 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kunbarlang"@en .
+ascl:11189914 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngalakgan"@en .
+ascl:11189915 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Rembarrnga"@en .
+ascl:11189999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Gunwinyguan Languages, nec"@en .
+ascl:11211111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Amurdak"@en .
+ascl:11211112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iwaidja"@en .
+ascl:11211113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maung"@en .
+ascl:11221111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Burarra"@en .
+ascl:11221112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gurr-goni"@en .
+ascl:11221113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nakkara"@en .
+ascl:11221114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ndjébbana (Gunavidji)"@en .
+ascl:11231111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Garrwa"@en .
+ascl:11231112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Waanyi"@en .
+ascl:11811111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cape York Creole"@en .
+ascl:11811112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gurindji Kriol"@en .
+ascl:11811113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kriol"@en .
+ascl:11811114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Lockhart River Creole"@en .
+ascl:11811115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ngukurr Kriol"@en .
+ascl:11811116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yumplatok"@en .
+ascl:11811117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yarrie Lingo"@en .
+ascl:11811198 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Aboriginal English, so described"@en .
+ascl:11811199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "New and Contact Languages, nec"@en .
+ascl:11999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Alawa"@en .
+ascl:11999912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Larrakia"@en .
+ascl:11999913 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mangarrayi"@en .
+ascl:11999914 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Marra"@en .
+ascl:11999915 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Meriam Mir"@en .
+ascl:11999916 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "palawa kani"@en .
+ascl:11999917 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tiwi"@en .
+ascl:11999918 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wagiman"@en .
+ascl:11999921 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wardaman"@en .
+ascl:11999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Aboriginal and Torres Strait Islander Languages, nec"@en .
+ascl:12111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Morisyen"@en .
+ascl:12111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Seychelles Creole"@en .
+ascl:12111198 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "French creole, so described"@en .
+ascl:12111211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Krio"@en .
+ascl:12111212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bislama"@en .
+ascl:12111213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Norf'k-Pitcairn"@en .
+ascl:12111214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pijin"@en .
+ascl:12111215 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tok Pisin (Neomelanesian)"@en .
+ascl:12119997 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Portuguese creole, so described"@en .
+ascl:12119998 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Spanish creole, so described"@en .
+ascl:12119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Creoles, nec"@en .
+ascl:12121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Liberian (Liberian English)"@en .
+ascl:12121198 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pidgin, so described"@en .
+ascl:12121199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pidgins, nec"@en .
+ascl:13111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gaelic (Scotland)"@en .
+ascl:13111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Irish"@en .
+ascl:13111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Welsh"@en .
+ascl:13111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Insular Languages, nec"@en .
+ascl:13121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Afrikaans"@en .
+ascl:13121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dutch"@en .
+ascl:13121113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "English"@en .
+ascl:13121114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Frisian"@en .
+ascl:13121115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "German"@en .
+ascl:13121116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Luxembourgish"@en .
+ascl:13121117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yiddish"@en .
+ascl:13121199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "West Germanic Languages, nec"@en .
+ascl:13121211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Danish"@en .
+ascl:13121212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Icelandic"@en .
+ascl:13121213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Norwegian"@en .
+ascl:13121214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Swedish"@en .
+ascl:13121299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "North Germanic Languages, nec"@en .
+ascl:13131111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Aromanian"@en .
+ascl:13131112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Catalan"@en .
+ascl:13131113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "French"@en .
+ascl:13131114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Italian"@en .
+ascl:13131115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Portuguese"@en .
+ascl:13131116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Romanian"@en .
+ascl:13131117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Spanish"@en .
+ascl:13139911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Latin"@en .
+ascl:13139999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Italic Languages, nec"@en .
+ascl:13141111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greek"@en .
+ascl:13141199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greek Languages, nec"@en .
+ascl:13151111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Latvian"@en .
+ascl:13151112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Lithuanian"@en .
+ascl:13151211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Belorussian"@en .
+ascl:13151212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bosnian"@en .
+ascl:13151213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bulgarian"@en .
+ascl:13151214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Croatian"@en .
+ascl:13151215 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Czech"@en .
+ascl:13151216 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Macedonian"@en .
+ascl:13151217 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Polish"@en .
+ascl:13151218 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Russian"@en .
+ascl:13151221 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Serbian"@en .
+ascl:13151222 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Slovak"@en .
+ascl:13151223 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Slovene"@en .
+ascl:13151224 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ukrainian"@en .
+ascl:13159997 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Czechoslovakian, so described"@en .
+ascl:13159998 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Serbo-Croatian/Yugoslavian, so described"@en .
+ascl:13159999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Balto-Slavic Languages, nec"@en .
+ascl:13161111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Balochi"@en .
+ascl:13161112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dari"@en .
+ascl:13161113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hazaragi"@en .
+ascl:13161114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Northern Kurdish (Kurmanji)"@en .
+ascl:13161115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pashto"@en .
+ascl:13161116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Persian (excluding Dari)"@en .
+ascl:13161211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Assamese"@en .
+ascl:13161212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bengali"@en .
+ascl:13161213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dhivehi"@en .
+ascl:13161214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Fiji Hindi"@en .
+ascl:13161215 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gujarati"@en .
+ascl:13161216 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Haryanvi"@en .
+ascl:13161217 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hindi"@en .
+ascl:13161218 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kashmiri"@en .
+ascl:13161221 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Konkani"@en .
+ascl:13161222 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Marathi"@en .
+ascl:13161223 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nepali"@en .
+ascl:13161224 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Oriya"@en .
+ascl:13161225 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Punjabi"@en .
+ascl:13161226 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Rohingya"@en .
+ascl:13161227 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Romany"@en .
+ascl:13161228 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sindhi"@en .
+ascl:13161231 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sinhalese"@en .
+ascl:13161232 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Urdu"@en .
+ascl:13169999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-Iranian Languages, nec"@en .
+ascl:13999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Albanian"@en .
+ascl:13999912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Armenian"@en .
+ascl:13999998 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Swiss, so described"@en .
+ascl:13999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-European Languages, nec"@en .
+ascl:14111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Estonian"@en .
+ascl:14111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Finnish"@en .
+ascl:14999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hungarian"@en .
+ascl:14999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Uralic Languages, nec"@en .
+ascl:15111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Arabic"@en .
+ascl:15111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Assyrian Neo-Aramaic"@en .
+ascl:15111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Chaldean Neo-Aramaic"@en .
+ascl:15111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hebrew"@en .
+ascl:15111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maltese"@en .
+ascl:15111116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mandaean (Mandaic)"@en .
+ascl:15111117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Syriac"@en .
+ascl:15111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central Semitic Languages, nec"@en .
+ascl:15111211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Amharic"@en .
+ascl:15111212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Harari"@en .
+ascl:15111213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tigré"@en .
+ascl:15111214 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tigrinya"@en .
+ascl:15111299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South Semitic Languages, nec"@en .
+ascl:15121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Oromo"@en .
+ascl:15121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Somali"@en .
+ascl:15129999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Cushitic Languages, nec"@en .
+ascl:15999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hausa"@en .
+ascl:15999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Afro-Asiatic Languages, nec"@en .
+ascl:16111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Azeri"@en .
+ascl:16111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Turkish"@en .
+ascl:16111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Turkmen"@en .
+ascl:16121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Uyghur"@en .
+ascl:16121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Uzbek"@en .
+ascl:16999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tatar"@en .
+ascl:16999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Turkic Languages, nec"@en .
+ascl:17111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Akan"@en .
+ascl:17111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bassa"@en .
+ascl:17111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bemba"@en .
+ascl:17111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Edo"@en .
+ascl:17111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ewe"@en .
+ascl:17111116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ga"@en .
+ascl:17111117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Igbo"@en .
+ascl:17111118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kikuyu"@en .
+ascl:17111121 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kinyarwanda (Rwanda)"@en .
+ascl:17111122 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kirundi (Rundi)"@en .
+ascl:17111123 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Krahn"@en .
+ascl:17111124 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Lingala"@en .
+ascl:17111125 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Luganda"@en .
+ascl:17111126 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ndebele"@en .
+ascl:17111127 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyanja (Chichewa)"@en .
+ascl:17111128 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Shona"@en .
+ascl:17111131 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Swahili"@en .
+ascl:17111132 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tswana"@en .
+ascl:17111133 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Xhosa"@en .
+ascl:17111134 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yoruba"@en .
+ascl:17111135 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Zulu"@en .
+ascl:17119911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Fulfulde"@en .
+ascl:17119912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kissi"@en .
+ascl:17119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Atlantic Congo Languages, nec"@en .
+ascl:17121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kpelle"@en .
+ascl:17121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Loma (Lorma)"@en .
+ascl:17121113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mandinka"@en .
+ascl:17121114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mende"@en .
+ascl:17121199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Mande Languages, nec"@en .
+ascl:17121211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dan (Gio-Dan)"@en .
+ascl:17121212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maan"@en .
+ascl:17121299 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Mande Languages, nec"@en .
+ascl:17999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Moro (Nuba Moro)"@en .
+ascl:17999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Niger Congo Languages, nec"@en .
+ascl:18111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Acholi"@en .
+ascl:18111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Anuak"@en .
+ascl:18111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bari"@en .
+ascl:18111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dinka"@en .
+ascl:18111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Luo"@en .
+ascl:18111116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Madi"@en .
+ascl:18111117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nuer"@en .
+ascl:18111118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Shilluk"@en .
+ascl:18999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Nilo-Saharan Languages, nec"@en .
+ascl:21111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kannada"@en .
+ascl:21111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malayalam"@en .
+ascl:21111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tamil"@en .
+ascl:21111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tulu"@en .
+ascl:21999911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Telugu"@en .
+ascl:21999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Dravidian Languages, nec"@en .
+ascl:22111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Basque"@en .
+ascl:22111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Georgian"@en .
+ascl:22111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Japanese"@en .
+ascl:22111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Korean"@en .
+ascl:22111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mongolian"@en .
+ascl:23111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hakka"@en .
+ascl:23111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mandarin"@en .
+ascl:23111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Min Nan (Teochew)"@en .
+ascl:23111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wu (Shanghainese)"@en .
+ascl:23111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yue (Cantonese)"@en .
+ascl:23111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Chinese Languages, nec"@en .
+ascl:23121111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Falam Chin"@en .
+ascl:23121112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hakha Chin"@en .
+ascl:23121113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kachin"@en .
+ascl:23121114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Matu Chin"@en .
+ascl:23121115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mizo"@en .
+ascl:23121116 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Siyin Chin"@en .
+ascl:23121117 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tedim Chin"@en .
+ascl:23121118 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Zophei"@en .
+ascl:23121121 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Zotung Chin"@en .
+ascl:23121211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karenni"@en .
+ascl:23121212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pwo Karen"@en .
+ascl:23121213 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "S'gaw Karen"@en .
+ascl:23121311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dzongkha"@en .
+ascl:23121312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central Tibetan"@en .
+ascl:23129911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Burmese"@en .
+ascl:23129999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Tibeto-Burman Languages, nec"@en .
+ascl:24111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong"@en .
+ascl:24111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong-Mien Languages, nec"@en .
+ascl:25111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Khmer"@en .
+ascl:25111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mon"@en .
+ascl:25111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Vietnamese"@en .
+ascl:25111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austro-Asiatic Languages, nec"@en .
+ascl:26111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Lao"@en .
+ascl:26111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Thai"@en .
+ascl:26119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Kra-Dai Languages, nec"@en .
+ascl:27111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bikol"@en .
+ascl:27111112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bisaya"@en .
+ascl:27111113 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cebuano"@en .
+ascl:27111114 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Filipino"@en .
+ascl:27111115 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tagalog"@en .
+ascl:27111211 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "IIocano"@en .
+ascl:27111212 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Ilonggo (Hiligaynon)"@en .
+ascl:27111311 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Acehnese"@en .
+ascl:27111312 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iban"@en .
+ascl:27111313 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indonesian"@en .
+ascl:27111314 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malay"@en .
+ascl:27111411 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Fijian"@en .
+ascl:27111412 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kiribati"@en .
+ascl:27111413 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cook Islands Maori"@en .
+ascl:27111414 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Māori (New Zealand)"@en .
+ascl:27111415 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Meto"@en .
+ascl:27111416 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Motu (Hiri Motu)"@en .
+ascl:27111417 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nauruan"@en .
+ascl:27111418 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Niue"@en .
+ascl:27111421 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Rotuman"@en .
+ascl:27111422 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Samoan"@en .
+ascl:27111423 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tetun"@en .
+ascl:27111424 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tokelauan"@en .
+ascl:27111425 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tongan"@en .
+ascl:27111426 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tuvaluan"@en .
+ascl:27119911 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Balinese"@en .
+ascl:27119912 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Javanese"@en .
+ascl:27119913 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pampangan"@en .
+ascl:27119999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Malayo-Polynesian Languages, nec"@en .
+ascl:27999999 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Austronesian Languages, nec"@en .
+ascl:91111111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "American Languages"@en .
+ascl:91111198 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cypriot, so described"@en .
+ascl:91111199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Languages, nec"@en .
+ascl:91711111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Auslan"@en .
+ascl:91711112 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Key Word Sign Australia"@en .
+ascl:91711199 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sign Languages, nec"@en .
+ascl:91981111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Invented Languages"@en .
+ascl:91991111 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Non verbal, so described"@en .
+ascl:00000000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Inadequately Described"@en .
+ascl:00000002 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Not Stated"@en .
+ascl:11110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pama-Nyungan Languages, nfd"@en .
+ascl:11111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Thura-Yura Languages, nfd"@en .
+ascl:11111200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Western Desert, nfd"@en .
+ascl:11111300 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Coastal and Inland Ngayarta, nfd"@en .
+ascl:11111400 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Marngu, nfd"@en .
+ascl:11111500 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South West Languages, Northern Desert Fringe, nfd"@en .
+ascl:11111600 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other South West Languages, nfd"@en .
+ascl:11111700 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wadjari Languages, nfd"@en .
+ascl:11111800 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Arandic Languages, nfd"@en .
+ascl:11112100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yolngu Languages, nfd"@en .
+ascl:11112200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tangic Languages, nfd"@en .
+ascl:11112300 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bandjalangic Languages, nfd"@en .
+ascl:11112400 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Paman Languages, nfd"@en .
+ascl:11112500 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yalandyic Languages, nfd"@en .
+ascl:11112600 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yidinyic Languages, nfd"@en .
+ascl:11112700 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Dyirbalic Languages, nfd"@en .
+ascl:11112800 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maric Languages, nfd"@en .
+ascl:11113100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Waka-Kabic Languages, nfd"@en .
+ascl:11113200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karnic Languages, nfd"@en .
+ascl:11113300 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Durubulic Languages, nfd"@en .
+ascl:11113400 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gumbaynggaric Languages, nfd"@en .
+ascl:11113500 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Wiradhuric Languages, nfd"@en .
+ascl:11113600 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yuin-Kuric Languages, nfd"@en .
+ascl:11113700 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kulinic Languages, nfd"@en .
+ascl:11119900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Pama-Nyungan Languages, nfd"@en .
+ascl:11121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Nyulnyulan Languages, nfd"@en .
+ascl:11131100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bunabic Languages, nfd"@en .
+ascl:11141100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Worrorran Languages, nfd"@en .
+ascl:11151100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Djeragan Languages, nfd"@en .
+ascl:11161100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mirndi Languages, nfd"@en .
+ascl:11170000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Daly Languages, nfd"@en .
+ascl:11171100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bringen-Wagaydy Languages, nfd"@en .
+ascl:11171200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Murrinh-Patha Languages, nfd"@en .
+ascl:11179900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Daly Languages, nfd"@en .
+ascl:11180000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Gunwinyguan Languages, nfd"@en .
+ascl:11181100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Bininj Kunwok Languages, nfd"@en .
+ascl:11181200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Enindhilyagwa Languages, nfd"@en .
+ascl:11189900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Gunwinyguan Languages, nfd"@en .
+ascl:11211100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iwaidjan Languages, nfd"@en .
+ascl:11221100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Maningrida Languages, nfd"@en .
+ascl:11230000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Yanyi Languages, nfd"@en .
+ascl:11231100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Garawan Languages, nfd"@en .
+ascl:11811100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "New and Contact Languages, nfd"@en .
+ascl:11999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Aboriginal and Torres Strait Islander Languages, nfd"@en .
+ascl:12110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Creoles, nfd"@en .
+ascl:12111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "French based Creoles, nfd"@en .
+ascl:12111200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "English based Creoles, nfd"@en .
+ascl:12119900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Creoles, nfd"@en .
+ascl:12121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Pidgin Languages, nfd"@en .
+ascl:13110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Celtic Languages, nfd"@en .
+ascl:13111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Insular Languages, nfd"@en .
+ascl:13120000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Germanic Languages, nfd"@en .
+ascl:13121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "West Germanic Languages, nfd"@en .
+ascl:13121200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "North Germanic Languages, nfd"@en .
+ascl:13130000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Italic Languages, nfd"@en .
+ascl:13131100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Romance Languages, nfd"@en .
+ascl:13139900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Italic Languages, nfd"@en .
+ascl:13141100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greek Languages, nfd"@en .
+ascl:13150000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Balto-Slavic Languages, nfd"@en .
+ascl:13151100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Baltic Languages, nfd"@en .
+ascl:13151200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Slavic Languages, nfd"@en .
+ascl:13159900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Balto-Slavic Languages, nfd"@en .
+ascl:13160000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indo-Iranian Languages, nfd"@en .
+ascl:13161100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Iranian Languages, nfd"@en .
+ascl:13161200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Indo-Aryan Languages, nfd"@en .
+ascl:13169900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-Iranian Languages, nfd"@en .
+ascl:13999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Indo-European Languages, nfd"@en .
+ascl:14110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Uralic Languages, nfd"@en .
+ascl:14111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Finnic Languages, nfd"@en .
+ascl:14999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Uralic Languages, nfd"@en .
+ascl:15110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Semitic Languages, nfd"@en .
+ascl:15111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central Semitic Languages, nfd"@en .
+ascl:15111200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "South Semitic Languages, nfd"@en .
+ascl:15120000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Cushitic Languages, nfd"@en .
+ascl:15121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "East Cushitic Languages, nfd"@en .
+ascl:15129900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Cushitic Languages, nfd"@en .
+ascl:15999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Afro-Asiatic Languages, nfd"@en .
+ascl:16111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Turkic Languages, nfd"@en .
+ascl:16121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Turkic Languages, nfd"@en .
+ascl:16999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Turkic Languages, nfd"@en .
+ascl:17110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Atlantic Congo Languages, nfd"@en .
+ascl:17111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Volta Congo Languages, nfd"@en .
+ascl:17119900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Atlantic Congo Languages, nfd"@en .
+ascl:17120000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Mande Languages, nfd"@en .
+ascl:17121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Mande Languages, nfd"@en .
+ascl:17121200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Eastern Mande Languages, nfd"@en .
+ascl:17999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Niger Congo Languages, nfd"@en .
+ascl:18111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Satellite Core Languages, nfd"@en .
+ascl:18999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Nilo-Saharan Languages, nfd"@en .
+ascl:21111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Southern Dravidian Languages, nfd"@en .
+ascl:21999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Dravidian Languages, nfd"@en .
+ascl:22111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Language isolates, nfd"@en .
+ascl:23111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Chinese Languages, nfd"@en .
+ascl:23120000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Tibeto-Burman Languages, nfd"@en .
+ascl:23121100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kuki Chin Languages, nfd"@en .
+ascl:23121200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Karenic Languages, nfd"@en .
+ascl:23121300 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Western Tibeto-Burman Languages, nfd"@en .
+ascl:23129900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Tibeto-Burman Languages, nfd"@en .
+ascl:24111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Hmong-Mien Languages, nfd"@en .
+ascl:25111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Austro-Asiatic Languages, nfd"@en .
+ascl:26111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Kra-Dai Languages, nfd"@en .
+ascl:27110000 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malayo-Polynesian Languages, nfd"@en .
+ascl:27111100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Greater Central Philippine Languages, nfd"@en .
+ascl:27111200 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Northern Luzon Languages, nfd"@en .
+ascl:27111300 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Malayo-Chamic Languages, nfd"@en .
+ascl:27111400 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Central-Eastern Malayo-Polynesian Languages, nfd"@en .
+ascl:27119900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Malayo-Polynesian Languages, nfd"@en .
+ascl:27999900 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Other Austronesian Languages, nfd"@en .
+ascl:91711100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Sign Languages, nfd"@en .
+ascl:91981100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Invented Languages, nfd"@en .
+ascl:91991100 a skos:Concept ; skos:inScheme asclcs: ; skos:prefLabel "Non verbal, so described, nfd"@en .
+
+# Materialised hierarchy
+ascl:111118 skos:broader ascl:1111 .
+ascl:1711 skos:broader ascl:17 .
+ascl:2511 skos:broader ascl:25 .
+ascl:251111 skos:broader ascl:2511 .
+ascl:131511 skos:broader ascl:1315 .
+ascl:1315 skos:broader ascl:13 .
+ascl:111123 skos:broader ascl:1111 .
+ascl:111811 skos:broader ascl:1118 .
+ascl:111711 skos:broader ascl:1117 .
+ascl:1113 skos:broader ascl:11 .
+ascl:111311 skos:broader ascl:1113 .
+ascl:1311 skos:broader ascl:13 .
+ascl:151111 skos:broader ascl:1511 .
+ascl:271114 skos:broader ascl:2711 .
+ascl:2311 skos:broader ascl:23 .
+ascl:231111 skos:broader ascl:2311 .
+ascl:1211 skos:broader ascl:12 .
+ascl:1512 skos:broader ascl:15 .
+ascl:1117 skos:broader ascl:11 .
+ascl:1115 skos:broader ascl:11 .
+ascl:111511 skos:broader ascl:1115 .
+ascl:111133 skos:broader ascl:1111 .
+ascl:111127 skos:broader ascl:1111 .
+ascl:151211 skos:broader ascl:1512 .
+ascl:171212 skos:broader ascl:1712 .
+ascl:1612 skos:broader ascl:16 .
+ascl:161211 skos:broader ascl:1612 .
+ascl:121112 skos:broader ascl:1211 .
+ascl:111812 skos:broader ascl:1118 .
+ascl:141111 skos:broader ascl:1411 .
+ascl:121111 skos:broader ascl:1211 .
+ascl:112311 skos:broader ascl:1123 .
+ascl:1312 skos:broader ascl:13 .
+ascl:271111 skos:broader ascl:2711 .
+ascl:1314 skos:broader ascl:13 .
+ascl:131411 skos:broader ascl:1314 .
+ascl:111134 skos:broader ascl:1111 .
+ascl:1118 skos:broader ascl:11 .
+ascl:2411 skos:broader ascl:24 .
+ascl:241111 skos:broader ascl:2411 .
+ascl:131612 skos:broader ascl:1316 .
+ascl:1316 skos:broader ascl:13 .
+ascl:131111 skos:broader ascl:1311 .
+ascl:9198 skos:broader ascl:91 .
+ascl:919811 skos:broader ascl:9198 .
+ascl:131611 skos:broader ascl:1316 .
+ascl:1313 skos:broader ascl:13 .
+ascl:1121 skos:broader ascl:11 .
+ascl:112111 skos:broader ascl:1121 .
+ascl:231212 skos:broader ascl:2312 .
+ascl:111132 skos:broader ascl:1111 .
+ascl:2611 skos:broader ascl:26 .
+ascl:261111 skos:broader ascl:2611 .
+ascl:231211 skos:broader ascl:2312 .
+ascl:111137 skos:broader ascl:1111 .
+ascl:2211 skos:broader ascl:22 .
+ascl:221111 skos:broader ascl:2211 .
+ascl:271113 skos:broader ascl:2711 .
+ascl:2711 skos:broader ascl:27 .
+ascl:1712 skos:broader ascl:17 .
+ascl:1122 skos:broader ascl:11 .
+ascl:112211 skos:broader ascl:1122 .
+ascl:111128 skos:broader ascl:1111 .
+ascl:1116 skos:broader ascl:11 .
+ascl:111611 skos:broader ascl:1116 .
+ascl:111712 skos:broader ascl:1117 .
+ascl:1181 skos:broader ascl:11 .
+ascl:118111 skos:broader ascl:1181 .
+ascl:9199 skos:broader ascl:91 .
+ascl:919911 skos:broader ascl:9199 .
+ascl:131212 skos:broader ascl:1312 .
+ascl:271112 skos:broader ascl:2711 .
+ascl:1112 skos:broader ascl:11 .
+ascl:111211 skos:broader ascl:1112 .
+ascl:1199 skos:broader ascl:11 .
+ascl:119999 skos:broader ascl:1199 .
+ascl:1599 skos:broader ascl:15 .
+ascl:159999 skos:broader ascl:1599 .
+ascl:171199 skos:broader ascl:1711 .
+ascl:2799 skos:broader ascl:27 .
+ascl:279999 skos:broader ascl:2799 .
+ascl:131599 skos:broader ascl:1315 .
+ascl:121199 skos:broader ascl:1211 .
+ascl:151299 skos:broader ascl:1512 .
+ascl:111799 skos:broader ascl:1117 .
+ascl:2199 skos:broader ascl:21 .
+ascl:219999 skos:broader ascl:2199 .
+ascl:111899 skos:broader ascl:1118 .
+ascl:1399 skos:broader ascl:13 .
+ascl:139999 skos:broader ascl:1399 .
+ascl:131699 skos:broader ascl:1316 .
+ascl:131399 skos:broader ascl:1313 .
+ascl:9111 skos:broader ascl:91 .
+ascl:911111 skos:broader ascl:9111 .
+ascl:271199 skos:broader ascl:2711 .
+ascl:1799 skos:broader ascl:17 .
+ascl:179999 skos:broader ascl:1799 .
+ascl:1899 skos:broader ascl:18 .
+ascl:189999 skos:broader ascl:1899 .
+ascl:111199 skos:broader ascl:1111 .
+ascl:111116 skos:broader ascl:1111 .
+ascl:231299 skos:broader ascl:2312 .
+ascl:1699 skos:broader ascl:16 .
+ascl:169999 skos:broader ascl:1699 .
+ascl:1499 skos:broader ascl:14 .
+ascl:149999 skos:broader ascl:1499 .
+ascl:1111 skos:broader ascl:11 .
+ascl:111124 skos:broader ascl:1111 .
+ascl:1212 skos:broader ascl:12 .
+ascl:121211 skos:broader ascl:1212 .
+ascl:131311 skos:broader ascl:1313 .
+ascl:1811 skos:broader ascl:18 .
+ascl:181111 skos:broader ascl:1811 .
+ascl:1511 skos:broader ascl:15 .
+ascl:9171 skos:broader ascl:91 .
+ascl:917111 skos:broader ascl:9171 .
+ascl:131512 skos:broader ascl:1315 .
+ascl:151112 skos:broader ascl:1511 .
+ascl:111113 skos:broader ascl:1111 .
+ascl:111114 skos:broader ascl:1111 .
+ascl:111115 skos:broader ascl:1111 .
+ascl:111112 skos:broader ascl:1111 .
+ascl:2111 skos:broader ascl:21 .
+ascl:211111 skos:broader ascl:2111 .
+ascl:1611 skos:broader ascl:16 .
+ascl:161111 skos:broader ascl:1611 .
+ascl:111122 skos:broader ascl:1111 .
+ascl:111111 skos:broader ascl:1111 .
+ascl:2312 skos:broader ascl:23 .
+ascl:1411 skos:broader ascl:14 .
+ascl:171111 skos:broader ascl:1711 .
+ascl:111117 skos:broader ascl:1111 .
+ascl:111131 skos:broader ascl:1111 .
+ascl:131211 skos:broader ascl:1312 .
+ascl:171211 skos:broader ascl:1712 .
+ascl:231213 skos:broader ascl:2312 .
+ascl:111135 skos:broader ascl:1111 .
+ascl:1114 skos:broader ascl:11 .
+ascl:111411 skos:broader ascl:1114 .
+ascl:111125 skos:broader ascl:1111 .
+ascl:1123 skos:broader ascl:11 .
+ascl:111126 skos:broader ascl:1111 .
+ascl:111121 skos:broader ascl:1111 .
+ascl:111136 skos:broader ascl:1111 .
+ascl:11111111 skos:broader ascl:111111 .
+ascl:11111112 skos:broader ascl:111111 .
+ascl:11111113 skos:broader ascl:111111 .
+ascl:11111114 skos:broader ascl:111111 .
+ascl:11111115 skos:broader ascl:111111 .
+ascl:11111211 skos:broader ascl:111112 .
+ascl:11111212 skos:broader ascl:111112 .
+ascl:11111213 skos:broader ascl:111112 .
+ascl:11111214 skos:broader ascl:111112 .
+ascl:11111215 skos:broader ascl:111112 .
+ascl:11111216 skos:broader ascl:111112 .
+ascl:11111217 skos:broader ascl:111112 .
+ascl:11111218 skos:broader ascl:111112 .
+ascl:11111221 skos:broader ascl:111112 .
+ascl:11111222 skos:broader ascl:111112 .
+ascl:11111223 skos:broader ascl:111112 .
+ascl:11111224 skos:broader ascl:111112 .
+ascl:11111225 skos:broader ascl:111112 .
+ascl:11111226 skos:broader ascl:111112 .
+ascl:11111227 skos:broader ascl:111112 .
+ascl:11111299 skos:broader ascl:111112 .
+ascl:11111311 skos:broader ascl:111113 .
+ascl:11111312 skos:broader ascl:111113 .
+ascl:11111313 skos:broader ascl:111113 .
+ascl:11111314 skos:broader ascl:111113 .
+ascl:11111315 skos:broader ascl:111113 .
+ascl:11111316 skos:broader ascl:111113 .
+ascl:11111317 skos:broader ascl:111113 .
+ascl:11111318 skos:broader ascl:111113 .
+ascl:11111411 skos:broader ascl:111114 .
+ascl:11111412 skos:broader ascl:111114 .
+ascl:11111413 skos:broader ascl:111114 .
+ascl:11111511 skos:broader ascl:111115 .
+ascl:11111512 skos:broader ascl:111115 .
+ascl:11111513 skos:broader ascl:111115 .
+ascl:11111514 skos:broader ascl:111115 .
+ascl:11111515 skos:broader ascl:111115 .
+ascl:11111516 skos:broader ascl:111115 .
+ascl:11111517 skos:broader ascl:111115 .
+ascl:11111599 skos:broader ascl:111115 .
+ascl:11111611 skos:broader ascl:111116 .
+ascl:11111612 skos:broader ascl:111116 .
+ascl:11111613 skos:broader ascl:111116 .
+ascl:11111699 skos:broader ascl:111116 .
+ascl:11111711 skos:broader ascl:111117 .
+ascl:11111712 skos:broader ascl:111117 .
+ascl:11111811 skos:broader ascl:111118 .
+ascl:11111812 skos:broader ascl:111118 .
+ascl:11111813 skos:broader ascl:111118 .
+ascl:11111814 skos:broader ascl:111118 .
+ascl:11111815 skos:broader ascl:111118 .
+ascl:11112111 skos:broader ascl:111121 .
+ascl:11112112 skos:broader ascl:111121 .
+ascl:11112113 skos:broader ascl:111121 .
+ascl:11112114 skos:broader ascl:111121 .
+ascl:11112115 skos:broader ascl:111121 .
+ascl:11112116 skos:broader ascl:111121 .
+ascl:11112117 skos:broader ascl:111121 .
+ascl:11112118 skos:broader ascl:111121 .
+ascl:11112121 skos:broader ascl:111121 .
+ascl:11112122 skos:broader ascl:111121 .
+ascl:11112123 skos:broader ascl:111121 .
+ascl:11112124 skos:broader ascl:111121 .
+ascl:11112199 skos:broader ascl:111121 .
+ascl:11112211 skos:broader ascl:111122 .
+ascl:11112212 skos:broader ascl:111122 .
+ascl:11112213 skos:broader ascl:111122 .
+ascl:11112311 skos:broader ascl:111123 .
+ascl:11112312 skos:broader ascl:111123 .
+ascl:11112411 skos:broader ascl:111124 .
+ascl:11112412 skos:broader ascl:111124 .
+ascl:11112413 skos:broader ascl:111124 .
+ascl:11112414 skos:broader ascl:111124 .
+ascl:11112415 skos:broader ascl:111124 .
+ascl:11112416 skos:broader ascl:111124 .
+ascl:11112417 skos:broader ascl:111124 .
+ascl:11112418 skos:broader ascl:111124 .
+ascl:11112499 skos:broader ascl:111124 .
+ascl:11112511 skos:broader ascl:111125 .
+ascl:11112512 skos:broader ascl:111125 .
+ascl:11112611 skos:broader ascl:111126 .
+ascl:11112612 skos:broader ascl:111126 .
+ascl:11112711 skos:broader ascl:111127 .
+ascl:11112712 skos:broader ascl:111127 .
+ascl:11112811 skos:broader ascl:111128 .
+ascl:11112812 skos:broader ascl:111128 .
+ascl:11112813 skos:broader ascl:111128 .
+ascl:11112814 skos:broader ascl:111128 .
+ascl:11112815 skos:broader ascl:111128 .
+ascl:11112899 skos:broader ascl:111128 .
+ascl:11113111 skos:broader ascl:111131 .
+ascl:11113112 skos:broader ascl:111131 .
+ascl:11113113 skos:broader ascl:111131 .
+ascl:11113199 skos:broader ascl:111131 .
+ascl:11113211 skos:broader ascl:111132 .
+ascl:11113212 skos:broader ascl:111132 .
+ascl:11113213 skos:broader ascl:111132 .
+ascl:11113214 skos:broader ascl:111132 .
+ascl:11113215 skos:broader ascl:111132 .
+ascl:11113216 skos:broader ascl:111132 .
+ascl:11113299 skos:broader ascl:111132 .
+ascl:11113311 skos:broader ascl:111133 .
+ascl:11113312 skos:broader ascl:111133 .
+ascl:11113399 skos:broader ascl:111133 .
+ascl:11113411 skos:broader ascl:111134 .
+ascl:11113412 skos:broader ascl:111134 .
+ascl:11113511 skos:broader ascl:111135 .
+ascl:11113512 skos:broader ascl:111135 .
+ascl:11113513 skos:broader ascl:111135 .
+ascl:11113514 skos:broader ascl:111135 .
+ascl:11113611 skos:broader ascl:111136 .
+ascl:11113612 skos:broader ascl:111136 .
+ascl:11113613 skos:broader ascl:111136 .
+ascl:11113614 skos:broader ascl:111136 .
+ascl:11113615 skos:broader ascl:111136 .
+ascl:11113616 skos:broader ascl:111136 .
+ascl:11113617 skos:broader ascl:111136 .
+ascl:11113618 skos:broader ascl:111136 .
+ascl:11113621 skos:broader ascl:111136 .
+ascl:11113622 skos:broader ascl:111136 .
+ascl:11113699 skos:broader ascl:111136 .
+ascl:11113711 skos:broader ascl:111137 .
+ascl:11113712 skos:broader ascl:111137 .
+ascl:11113713 skos:broader ascl:111137 .
+ascl:11113714 skos:broader ascl:111137 .
+ascl:11113715 skos:broader ascl:111137 .
+ascl:11113799 skos:broader ascl:111137 .
+ascl:11119911 skos:broader ascl:111199 .
+ascl:11119912 skos:broader ascl:111199 .
+ascl:11119913 skos:broader ascl:111199 .
+ascl:11119914 skos:broader ascl:111199 .
+ascl:11119915 skos:broader ascl:111199 .
+ascl:11119916 skos:broader ascl:111199 .
+ascl:11119917 skos:broader ascl:111199 .
+ascl:11119918 skos:broader ascl:111199 .
+ascl:11119921 skos:broader ascl:111199 .
+ascl:11119922 skos:broader ascl:111199 .
+ascl:11119999 skos:broader ascl:111199 .
+ascl:11121111 skos:broader ascl:111211 .
+ascl:11121112 skos:broader ascl:111211 .
+ascl:11121113 skos:broader ascl:111211 .
+ascl:11121114 skos:broader ascl:111211 .
+ascl:11121199 skos:broader ascl:111211 .
+ascl:11131111 skos:broader ascl:111311 .
+ascl:11131112 skos:broader ascl:111311 .
+ascl:11141111 skos:broader ascl:111411 .
+ascl:11141112 skos:broader ascl:111411 .
+ascl:11141113 skos:broader ascl:111411 .
+ascl:11151111 skos:broader ascl:111511 .
+ascl:11151112 skos:broader ascl:111511 .
+ascl:11161111 skos:broader ascl:111611 .
+ascl:11161112 skos:broader ascl:111611 .
+ascl:11161113 skos:broader ascl:111611 .
+ascl:11161114 skos:broader ascl:111611 .
+ascl:11161115 skos:broader ascl:111611 .
+ascl:11171111 skos:broader ascl:111711 .
+ascl:11171112 skos:broader ascl:111711 .
+ascl:11171113 skos:broader ascl:111711 .
+ascl:11171211 skos:broader ascl:111712 .
+ascl:11171212 skos:broader ascl:111712 .
+ascl:11179911 skos:broader ascl:111799 .
+ascl:11179999 skos:broader ascl:111799 .
+ascl:11181111 skos:broader ascl:111811 .
+ascl:11181112 skos:broader ascl:111811 .
+ascl:11181113 skos:broader ascl:111811 .
+ascl:11181114 skos:broader ascl:111811 .
+ascl:11181115 skos:broader ascl:111811 .
+ascl:11181211 skos:broader ascl:111812 .
+ascl:11181212 skos:broader ascl:111812 .
+ascl:11181213 skos:broader ascl:111812 .
+ascl:11189911 skos:broader ascl:111899 .
+ascl:11189912 skos:broader ascl:111899 .
+ascl:11189913 skos:broader ascl:111899 .
+ascl:11189914 skos:broader ascl:111899 .
+ascl:11189915 skos:broader ascl:111899 .
+ascl:11189999 skos:broader ascl:111899 .
+ascl:11211111 skos:broader ascl:112111 .
+ascl:11211112 skos:broader ascl:112111 .
+ascl:11211113 skos:broader ascl:112111 .
+ascl:11221111 skos:broader ascl:112211 .
+ascl:11221112 skos:broader ascl:112211 .
+ascl:11221113 skos:broader ascl:112211 .
+ascl:11221114 skos:broader ascl:112211 .
+ascl:11231111 skos:broader ascl:112311 .
+ascl:11231112 skos:broader ascl:112311 .
+ascl:11811111 skos:broader ascl:118111 .
+ascl:11811112 skos:broader ascl:118111 .
+ascl:11811113 skos:broader ascl:118111 .
+ascl:11811114 skos:broader ascl:118111 .
+ascl:11811115 skos:broader ascl:118111 .
+ascl:11811116 skos:broader ascl:118111 .
+ascl:11811117 skos:broader ascl:118111 .
+ascl:11811198 skos:broader ascl:118111 .
+ascl:11811199 skos:broader ascl:118111 .
+ascl:11999911 skos:broader ascl:119999 .
+ascl:11999912 skos:broader ascl:119999 .
+ascl:11999913 skos:broader ascl:119999 .
+ascl:11999914 skos:broader ascl:119999 .
+ascl:11999915 skos:broader ascl:119999 .
+ascl:11999916 skos:broader ascl:119999 .
+ascl:11999917 skos:broader ascl:119999 .
+ascl:11999918 skos:broader ascl:119999 .
+ascl:11999921 skos:broader ascl:119999 .
+ascl:11999999 skos:broader ascl:119999 .
+ascl:12111111 skos:broader ascl:121111 .
+ascl:12111112 skos:broader ascl:121111 .
+ascl:12111198 skos:broader ascl:121111 .
+ascl:12111211 skos:broader ascl:121112 .
+ascl:12111212 skos:broader ascl:121112 .
+ascl:12111213 skos:broader ascl:121112 .
+ascl:12111214 skos:broader ascl:121112 .
+ascl:12111215 skos:broader ascl:121112 .
+ascl:12119997 skos:broader ascl:121199 .
+ascl:12119998 skos:broader ascl:121199 .
+ascl:12119999 skos:broader ascl:121199 .
+ascl:12121111 skos:broader ascl:121211 .
+ascl:12121198 skos:broader ascl:121211 .
+ascl:12121199 skos:broader ascl:121211 .
+ascl:13111111 skos:broader ascl:131111 .
+ascl:13111112 skos:broader ascl:131111 .
+ascl:13111113 skos:broader ascl:131111 .
+ascl:13111199 skos:broader ascl:131111 .
+ascl:13121111 skos:broader ascl:131211 .
+ascl:13121112 skos:broader ascl:131211 .
+ascl:13121113 skos:broader ascl:131211 .
+ascl:13121114 skos:broader ascl:131211 .
+ascl:13121115 skos:broader ascl:131211 .
+ascl:13121116 skos:broader ascl:131211 .
+ascl:13121117 skos:broader ascl:131211 .
+ascl:13121199 skos:broader ascl:131211 .
+ascl:13121211 skos:broader ascl:131212 .
+ascl:13121212 skos:broader ascl:131212 .
+ascl:13121213 skos:broader ascl:131212 .
+ascl:13121214 skos:broader ascl:131212 .
+ascl:13121299 skos:broader ascl:131212 .
+ascl:13131111 skos:broader ascl:131311 .
+ascl:13131112 skos:broader ascl:131311 .
+ascl:13131113 skos:broader ascl:131311 .
+ascl:13131114 skos:broader ascl:131311 .
+ascl:13131115 skos:broader ascl:131311 .
+ascl:13131116 skos:broader ascl:131311 .
+ascl:13131117 skos:broader ascl:131311 .
+ascl:13139911 skos:broader ascl:131399 .
+ascl:13139999 skos:broader ascl:131399 .
+ascl:13141111 skos:broader ascl:131411 .
+ascl:13141199 skos:broader ascl:131411 .
+ascl:13151111 skos:broader ascl:131511 .
+ascl:13151112 skos:broader ascl:131511 .
+ascl:13151211 skos:broader ascl:131512 .
+ascl:13151212 skos:broader ascl:131512 .
+ascl:13151213 skos:broader ascl:131512 .
+ascl:13151214 skos:broader ascl:131512 .
+ascl:13151215 skos:broader ascl:131512 .
+ascl:13151216 skos:broader ascl:131512 .
+ascl:13151217 skos:broader ascl:131512 .
+ascl:13151218 skos:broader ascl:131512 .
+ascl:13151221 skos:broader ascl:131512 .
+ascl:13151222 skos:broader ascl:131512 .
+ascl:13151223 skos:broader ascl:131512 .
+ascl:13151224 skos:broader ascl:131512 .
+ascl:13159997 skos:broader ascl:131599 .
+ascl:13159998 skos:broader ascl:131599 .
+ascl:13159999 skos:broader ascl:131599 .
+ascl:13161111 skos:broader ascl:131611 .
+ascl:13161112 skos:broader ascl:131611 .
+ascl:13161113 skos:broader ascl:131611 .
+ascl:13161114 skos:broader ascl:131611 .
+ascl:13161115 skos:broader ascl:131611 .
+ascl:13161116 skos:broader ascl:131611 .
+ascl:13161211 skos:broader ascl:131612 .
+ascl:13161212 skos:broader ascl:131612 .
+ascl:13161213 skos:broader ascl:131612 .
+ascl:13161214 skos:broader ascl:131612 .
+ascl:13161215 skos:broader ascl:131612 .
+ascl:13161216 skos:broader ascl:131612 .
+ascl:13161217 skos:broader ascl:131612 .
+ascl:13161218 skos:broader ascl:131612 .
+ascl:13161221 skos:broader ascl:131612 .
+ascl:13161222 skos:broader ascl:131612 .
+ascl:13161223 skos:broader ascl:131612 .
+ascl:13161224 skos:broader ascl:131612 .
+ascl:13161225 skos:broader ascl:131612 .
+ascl:13161226 skos:broader ascl:131612 .
+ascl:13161227 skos:broader ascl:131612 .
+ascl:13161228 skos:broader ascl:131612 .
+ascl:13161231 skos:broader ascl:131612 .
+ascl:13161232 skos:broader ascl:131612 .
+ascl:13169999 skos:broader ascl:131699 .
+ascl:13999911 skos:broader ascl:139999 .
+ascl:13999912 skos:broader ascl:139999 .
+ascl:13999998 skos:broader ascl:139999 .
+ascl:13999999 skos:broader ascl:139999 .
+ascl:14111111 skos:broader ascl:141111 .
+ascl:14111112 skos:broader ascl:141111 .
+ascl:14999911 skos:broader ascl:149999 .
+ascl:14999999 skos:broader ascl:149999 .
+ascl:15111111 skos:broader ascl:151111 .
+ascl:15111112 skos:broader ascl:151111 .
+ascl:15111113 skos:broader ascl:151111 .
+ascl:15111114 skos:broader ascl:151111 .
+ascl:15111115 skos:broader ascl:151111 .
+ascl:15111116 skos:broader ascl:151111 .
+ascl:15111117 skos:broader ascl:151111 .
+ascl:15111199 skos:broader ascl:151111 .
+ascl:15111211 skos:broader ascl:151112 .
+ascl:15111212 skos:broader ascl:151112 .
+ascl:15111213 skos:broader ascl:151112 .
+ascl:15111214 skos:broader ascl:151112 .
+ascl:15111299 skos:broader ascl:151112 .
+ascl:15121111 skos:broader ascl:151211 .
+ascl:15121112 skos:broader ascl:151211 .
+ascl:15129999 skos:broader ascl:151299 .
+ascl:15999911 skos:broader ascl:159999 .
+ascl:15999999 skos:broader ascl:159999 .
+ascl:16111111 skos:broader ascl:161111 .
+ascl:16111112 skos:broader ascl:161111 .
+ascl:16111113 skos:broader ascl:161111 .
+ascl:16121111 skos:broader ascl:161211 .
+ascl:16121112 skos:broader ascl:161211 .
+ascl:16999911 skos:broader ascl:169999 .
+ascl:16999999 skos:broader ascl:169999 .
+ascl:17111111 skos:broader ascl:171111 .
+ascl:17111112 skos:broader ascl:171111 .
+ascl:17111113 skos:broader ascl:171111 .
+ascl:17111114 skos:broader ascl:171111 .
+ascl:17111115 skos:broader ascl:171111 .
+ascl:17111116 skos:broader ascl:171111 .
+ascl:17111117 skos:broader ascl:171111 .
+ascl:17111118 skos:broader ascl:171111 .
+ascl:17111121 skos:broader ascl:171111 .
+ascl:17111122 skos:broader ascl:171111 .
+ascl:17111123 skos:broader ascl:171111 .
+ascl:17111124 skos:broader ascl:171111 .
+ascl:17111125 skos:broader ascl:171111 .
+ascl:17111126 skos:broader ascl:171111 .
+ascl:17111127 skos:broader ascl:171111 .
+ascl:17111128 skos:broader ascl:171111 .
+ascl:17111131 skos:broader ascl:171111 .
+ascl:17111132 skos:broader ascl:171111 .
+ascl:17111133 skos:broader ascl:171111 .
+ascl:17111134 skos:broader ascl:171111 .
+ascl:17111135 skos:broader ascl:171111 .
+ascl:17119911 skos:broader ascl:171199 .
+ascl:17119912 skos:broader ascl:171199 .
+ascl:17119999 skos:broader ascl:171199 .
+ascl:17121111 skos:broader ascl:171211 .
+ascl:17121112 skos:broader ascl:171211 .
+ascl:17121113 skos:broader ascl:171211 .
+ascl:17121114 skos:broader ascl:171211 .
+ascl:17121199 skos:broader ascl:171211 .
+ascl:17121211 skos:broader ascl:171212 .
+ascl:17121212 skos:broader ascl:171212 .
+ascl:17121299 skos:broader ascl:171212 .
+ascl:17999911 skos:broader ascl:179999 .
+ascl:17999999 skos:broader ascl:179999 .
+ascl:18111111 skos:broader ascl:181111 .
+ascl:18111112 skos:broader ascl:181111 .
+ascl:18111113 skos:broader ascl:181111 .
+ascl:18111114 skos:broader ascl:181111 .
+ascl:18111115 skos:broader ascl:181111 .
+ascl:18111116 skos:broader ascl:181111 .
+ascl:18111117 skos:broader ascl:181111 .
+ascl:18111118 skos:broader ascl:181111 .
+ascl:18999999 skos:broader ascl:189999 .
+ascl:21111111 skos:broader ascl:211111 .
+ascl:21111112 skos:broader ascl:211111 .
+ascl:21111113 skos:broader ascl:211111 .
+ascl:21111114 skos:broader ascl:211111 .
+ascl:21999911 skos:broader ascl:219999 .
+ascl:21999999 skos:broader ascl:219999 .
+ascl:22111111 skos:broader ascl:221111 .
+ascl:22111112 skos:broader ascl:221111 .
+ascl:22111113 skos:broader ascl:221111 .
+ascl:22111114 skos:broader ascl:221111 .
+ascl:22111115 skos:broader ascl:221111 .
+ascl:23111111 skos:broader ascl:231111 .
+ascl:23111112 skos:broader ascl:231111 .
+ascl:23111113 skos:broader ascl:231111 .
+ascl:23111114 skos:broader ascl:231111 .
+ascl:23111115 skos:broader ascl:231111 .
+ascl:23111199 skos:broader ascl:231111 .
+ascl:23121111 skos:broader ascl:231211 .
+ascl:23121112 skos:broader ascl:231211 .
+ascl:23121113 skos:broader ascl:231211 .
+ascl:23121114 skos:broader ascl:231211 .
+ascl:23121115 skos:broader ascl:231211 .
+ascl:23121116 skos:broader ascl:231211 .
+ascl:23121117 skos:broader ascl:231211 .
+ascl:23121118 skos:broader ascl:231211 .
+ascl:23121121 skos:broader ascl:231211 .
+ascl:23121211 skos:broader ascl:231212 .
+ascl:23121212 skos:broader ascl:231212 .
+ascl:23121213 skos:broader ascl:231212 .
+ascl:23121311 skos:broader ascl:231213 .
+ascl:23121312 skos:broader ascl:231213 .
+ascl:23129911 skos:broader ascl:231299 .
+ascl:23129999 skos:broader ascl:231299 .
+ascl:24111111 skos:broader ascl:241111 .
+ascl:24111199 skos:broader ascl:241111 .
+ascl:25111111 skos:broader ascl:251111 .
+ascl:25111112 skos:broader ascl:251111 .
+ascl:25111113 skos:broader ascl:251111 .
+ascl:25111199 skos:broader ascl:251111 .
+ascl:26111111 skos:broader ascl:261111 .
+ascl:26111112 skos:broader ascl:261111 .
+ascl:27111111 skos:broader ascl:271111 .
+ascl:27111112 skos:broader ascl:271111 .
+ascl:27111113 skos:broader ascl:271111 .
+ascl:27111114 skos:broader ascl:271111 .
+ascl:27111115 skos:broader ascl:271111 .
+ascl:27111211 skos:broader ascl:271112 .
+ascl:27111212 skos:broader ascl:271112 .
+ascl:27111311 skos:broader ascl:271113 .
+ascl:27111312 skos:broader ascl:271113 .
+ascl:27111313 skos:broader ascl:271113 .
+ascl:27111314 skos:broader ascl:271113 .
+ascl:27111411 skos:broader ascl:271114 .
+ascl:27111412 skos:broader ascl:271114 .
+ascl:27111413 skos:broader ascl:271114 .
+ascl:27111414 skos:broader ascl:271114 .
+ascl:27111415 skos:broader ascl:271114 .
+ascl:27111416 skos:broader ascl:271114 .
+ascl:27111417 skos:broader ascl:271114 .
+ascl:27111418 skos:broader ascl:271114 .
+ascl:27111421 skos:broader ascl:271114 .
+ascl:27111422 skos:broader ascl:271114 .
+ascl:27111423 skos:broader ascl:271114 .
+ascl:27111424 skos:broader ascl:271114 .
+ascl:27111425 skos:broader ascl:271114 .
+ascl:27111426 skos:broader ascl:271114 .
+ascl:27119911 skos:broader ascl:271199 .
+ascl:27119912 skos:broader ascl:271199 .
+ascl:27119913 skos:broader ascl:271199 .
+ascl:27119999 skos:broader ascl:271199 .
+ascl:27999999 skos:broader ascl:279999 .
+ascl:91111111 skos:broader ascl:911111 .
+ascl:91111198 skos:broader ascl:911111 .
+ascl:91111199 skos:broader ascl:911111 .
+ascl:91711111 skos:broader ascl:917111 .
+ascl:91711112 skos:broader ascl:917111 .
+ascl:91711199 skos:broader ascl:917111 .
+ascl:91981111 skos:broader ascl:919811 .
+ascl:91991111 skos:broader ascl:919911 .
+
+ascl:11 skos:narrower ascl:1111 .
+ascl:11 skos:narrower ascl:1112 .
+ascl:11 skos:narrower ascl:1113 .
+ascl:11 skos:narrower ascl:1114 .
+ascl:11 skos:narrower ascl:1115 .
+ascl:11 skos:narrower ascl:1116 .
+ascl:11 skos:narrower ascl:1117 .
+ascl:11 skos:narrower ascl:1118 .
+ascl:11 skos:narrower ascl:1121 .
+ascl:11 skos:narrower ascl:1122 .
+ascl:11 skos:narrower ascl:1123 .
+ascl:11 skos:narrower ascl:1181 .
+ascl:11 skos:narrower ascl:1199 .
+ascl:1111 skos:narrower ascl:111111 .
+ascl:1111 skos:narrower ascl:111112 .
+ascl:1111 skos:narrower ascl:111113 .
+ascl:1111 skos:narrower ascl:111114 .
+ascl:1111 skos:narrower ascl:111115 .
+ascl:1111 skos:narrower ascl:111116 .
+ascl:1111 skos:narrower ascl:111117 .
+ascl:1111 skos:narrower ascl:111118 .
+ascl:1111 skos:narrower ascl:111121 .
+ascl:1111 skos:narrower ascl:111122 .
+ascl:1111 skos:narrower ascl:111123 .
+ascl:1111 skos:narrower ascl:111124 .
+ascl:1111 skos:narrower ascl:111125 .
+ascl:1111 skos:narrower ascl:111126 .
+ascl:1111 skos:narrower ascl:111127 .
+ascl:1111 skos:narrower ascl:111128 .
+ascl:1111 skos:narrower ascl:111131 .
+ascl:1111 skos:narrower ascl:111132 .
+ascl:1111 skos:narrower ascl:111133 .
+ascl:1111 skos:narrower ascl:111134 .
+ascl:1111 skos:narrower ascl:111135 .
+ascl:1111 skos:narrower ascl:111136 .
+ascl:1111 skos:narrower ascl:111137 .
+ascl:1111 skos:narrower ascl:111199 .
+ascl:111111 skos:narrower ascl:11111111 .
+ascl:111111 skos:narrower ascl:11111112 .
+ascl:111111 skos:narrower ascl:11111113 .
+ascl:111111 skos:narrower ascl:11111114 .
+ascl:111111 skos:narrower ascl:11111115 .
+ascl:111112 skos:narrower ascl:11111211 .
+ascl:111112 skos:narrower ascl:11111212 .
+ascl:111112 skos:narrower ascl:11111213 .
+ascl:111112 skos:narrower ascl:11111214 .
+ascl:111112 skos:narrower ascl:11111215 .
+ascl:111112 skos:narrower ascl:11111216 .
+ascl:111112 skos:narrower ascl:11111217 .
+ascl:111112 skos:narrower ascl:11111218 .
+ascl:111112 skos:narrower ascl:11111221 .
+ascl:111112 skos:narrower ascl:11111222 .
+ascl:111112 skos:narrower ascl:11111223 .
+ascl:111112 skos:narrower ascl:11111224 .
+ascl:111112 skos:narrower ascl:11111225 .
+ascl:111112 skos:narrower ascl:11111226 .
+ascl:111112 skos:narrower ascl:11111227 .
+ascl:111112 skos:narrower ascl:11111299 .
+ascl:111113 skos:narrower ascl:11111311 .
+ascl:111113 skos:narrower ascl:11111312 .
+ascl:111113 skos:narrower ascl:11111313 .
+ascl:111113 skos:narrower ascl:11111314 .
+ascl:111113 skos:narrower ascl:11111315 .
+ascl:111113 skos:narrower ascl:11111316 .
+ascl:111113 skos:narrower ascl:11111317 .
+ascl:111113 skos:narrower ascl:11111318 .
+ascl:111114 skos:narrower ascl:11111411 .
+ascl:111114 skos:narrower ascl:11111412 .
+ascl:111114 skos:narrower ascl:11111413 .
+ascl:111115 skos:narrower ascl:11111511 .
+ascl:111115 skos:narrower ascl:11111512 .
+ascl:111115 skos:narrower ascl:11111513 .
+ascl:111115 skos:narrower ascl:11111514 .
+ascl:111115 skos:narrower ascl:11111515 .
+ascl:111115 skos:narrower ascl:11111516 .
+ascl:111115 skos:narrower ascl:11111517 .
+ascl:111115 skos:narrower ascl:11111599 .
+ascl:111116 skos:narrower ascl:11111611 .
+ascl:111116 skos:narrower ascl:11111612 .
+ascl:111116 skos:narrower ascl:11111613 .
+ascl:111116 skos:narrower ascl:11111699 .
+ascl:111117 skos:narrower ascl:11111711 .
+ascl:111117 skos:narrower ascl:11111712 .
+ascl:111118 skos:narrower ascl:11111811 .
+ascl:111118 skos:narrower ascl:11111812 .
+ascl:111118 skos:narrower ascl:11111813 .
+ascl:111118 skos:narrower ascl:11111814 .
+ascl:111118 skos:narrower ascl:11111815 .
+ascl:111121 skos:narrower ascl:11112111 .
+ascl:111121 skos:narrower ascl:11112112 .
+ascl:111121 skos:narrower ascl:11112113 .
+ascl:111121 skos:narrower ascl:11112114 .
+ascl:111121 skos:narrower ascl:11112115 .
+ascl:111121 skos:narrower ascl:11112116 .
+ascl:111121 skos:narrower ascl:11112117 .
+ascl:111121 skos:narrower ascl:11112118 .
+ascl:111121 skos:narrower ascl:11112121 .
+ascl:111121 skos:narrower ascl:11112122 .
+ascl:111121 skos:narrower ascl:11112123 .
+ascl:111121 skos:narrower ascl:11112124 .
+ascl:111121 skos:narrower ascl:11112199 .
+ascl:111122 skos:narrower ascl:11112211 .
+ascl:111122 skos:narrower ascl:11112212 .
+ascl:111122 skos:narrower ascl:11112213 .
+ascl:111123 skos:narrower ascl:11112311 .
+ascl:111123 skos:narrower ascl:11112312 .
+ascl:111124 skos:narrower ascl:11112411 .
+ascl:111124 skos:narrower ascl:11112412 .
+ascl:111124 skos:narrower ascl:11112413 .
+ascl:111124 skos:narrower ascl:11112414 .
+ascl:111124 skos:narrower ascl:11112415 .
+ascl:111124 skos:narrower ascl:11112416 .
+ascl:111124 skos:narrower ascl:11112417 .
+ascl:111124 skos:narrower ascl:11112418 .
+ascl:111124 skos:narrower ascl:11112499 .
+ascl:111125 skos:narrower ascl:11112511 .
+ascl:111125 skos:narrower ascl:11112512 .
+ascl:111126 skos:narrower ascl:11112611 .
+ascl:111126 skos:narrower ascl:11112612 .
+ascl:111127 skos:narrower ascl:11112711 .
+ascl:111127 skos:narrower ascl:11112712 .
+ascl:111128 skos:narrower ascl:11112811 .
+ascl:111128 skos:narrower ascl:11112812 .
+ascl:111128 skos:narrower ascl:11112813 .
+ascl:111128 skos:narrower ascl:11112814 .
+ascl:111128 skos:narrower ascl:11112815 .
+ascl:111128 skos:narrower ascl:11112899 .
+ascl:111131 skos:narrower ascl:11113111 .
+ascl:111131 skos:narrower ascl:11113112 .
+ascl:111131 skos:narrower ascl:11113113 .
+ascl:111131 skos:narrower ascl:11113199 .
+ascl:111132 skos:narrower ascl:11113211 .
+ascl:111132 skos:narrower ascl:11113212 .
+ascl:111132 skos:narrower ascl:11113213 .
+ascl:111132 skos:narrower ascl:11113214 .
+ascl:111132 skos:narrower ascl:11113215 .
+ascl:111132 skos:narrower ascl:11113216 .
+ascl:111132 skos:narrower ascl:11113299 .
+ascl:111133 skos:narrower ascl:11113311 .
+ascl:111133 skos:narrower ascl:11113312 .
+ascl:111133 skos:narrower ascl:11113399 .
+ascl:111134 skos:narrower ascl:11113411 .
+ascl:111134 skos:narrower ascl:11113412 .
+ascl:111135 skos:narrower ascl:11113511 .
+ascl:111135 skos:narrower ascl:11113512 .
+ascl:111135 skos:narrower ascl:11113513 .
+ascl:111135 skos:narrower ascl:11113514 .
+ascl:111136 skos:narrower ascl:11113611 .
+ascl:111136 skos:narrower ascl:11113612 .
+ascl:111136 skos:narrower ascl:11113613 .
+ascl:111136 skos:narrower ascl:11113614 .
+ascl:111136 skos:narrower ascl:11113615 .
+ascl:111136 skos:narrower ascl:11113616 .
+ascl:111136 skos:narrower ascl:11113617 .
+ascl:111136 skos:narrower ascl:11113618 .
+ascl:111136 skos:narrower ascl:11113621 .
+ascl:111136 skos:narrower ascl:11113622 .
+ascl:111136 skos:narrower ascl:11113699 .
+ascl:111137 skos:narrower ascl:11113711 .
+ascl:111137 skos:narrower ascl:11113712 .
+ascl:111137 skos:narrower ascl:11113713 .
+ascl:111137 skos:narrower ascl:11113714 .
+ascl:111137 skos:narrower ascl:11113715 .
+ascl:111137 skos:narrower ascl:11113799 .
+ascl:111199 skos:narrower ascl:11119911 .
+ascl:111199 skos:narrower ascl:11119912 .
+ascl:111199 skos:narrower ascl:11119913 .
+ascl:111199 skos:narrower ascl:11119914 .
+ascl:111199 skos:narrower ascl:11119915 .
+ascl:111199 skos:narrower ascl:11119916 .
+ascl:111199 skos:narrower ascl:11119917 .
+ascl:111199 skos:narrower ascl:11119918 .
+ascl:111199 skos:narrower ascl:11119921 .
+ascl:111199 skos:narrower ascl:11119922 .
+ascl:111199 skos:narrower ascl:11119999 .
+ascl:1112 skos:narrower ascl:111211 .
+ascl:111211 skos:narrower ascl:11121111 .
+ascl:111211 skos:narrower ascl:11121112 .
+ascl:111211 skos:narrower ascl:11121113 .
+ascl:111211 skos:narrower ascl:11121114 .
+ascl:111211 skos:narrower ascl:11121199 .
+ascl:1113 skos:narrower ascl:111311 .
+ascl:111311 skos:narrower ascl:11131111 .
+ascl:111311 skos:narrower ascl:11131112 .
+ascl:1114 skos:narrower ascl:111411 .
+ascl:111411 skos:narrower ascl:11141111 .
+ascl:111411 skos:narrower ascl:11141112 .
+ascl:111411 skos:narrower ascl:11141113 .
+ascl:1115 skos:narrower ascl:111511 .
+ascl:111511 skos:narrower ascl:11151111 .
+ascl:111511 skos:narrower ascl:11151112 .
+ascl:1116 skos:narrower ascl:111611 .
+ascl:111611 skos:narrower ascl:11161111 .
+ascl:111611 skos:narrower ascl:11161112 .
+ascl:111611 skos:narrower ascl:11161113 .
+ascl:111611 skos:narrower ascl:11161114 .
+ascl:111611 skos:narrower ascl:11161115 .
+ascl:1117 skos:narrower ascl:111711 .
+ascl:1117 skos:narrower ascl:111712 .
+ascl:1117 skos:narrower ascl:111799 .
+ascl:111711 skos:narrower ascl:11171111 .
+ascl:111711 skos:narrower ascl:11171112 .
+ascl:111711 skos:narrower ascl:11171113 .
+ascl:111712 skos:narrower ascl:11171211 .
+ascl:111712 skos:narrower ascl:11171212 .
+ascl:111799 skos:narrower ascl:11179911 .
+ascl:111799 skos:narrower ascl:11179999 .
+ascl:1118 skos:narrower ascl:111811 .
+ascl:1118 skos:narrower ascl:111812 .
+ascl:1118 skos:narrower ascl:111899 .
+ascl:111811 skos:narrower ascl:11181111 .
+ascl:111811 skos:narrower ascl:11181112 .
+ascl:111811 skos:narrower ascl:11181113 .
+ascl:111811 skos:narrower ascl:11181114 .
+ascl:111811 skos:narrower ascl:11181115 .
+ascl:111812 skos:narrower ascl:11181211 .
+ascl:111812 skos:narrower ascl:11181212 .
+ascl:111812 skos:narrower ascl:11181213 .
+ascl:111899 skos:narrower ascl:11189911 .
+ascl:111899 skos:narrower ascl:11189912 .
+ascl:111899 skos:narrower ascl:11189913 .
+ascl:111899 skos:narrower ascl:11189914 .
+ascl:111899 skos:narrower ascl:11189915 .
+ascl:111899 skos:narrower ascl:11189999 .
+ascl:1121 skos:narrower ascl:112111 .
+ascl:112111 skos:narrower ascl:11211111 .
+ascl:112111 skos:narrower ascl:11211112 .
+ascl:112111 skos:narrower ascl:11211113 .
+ascl:1122 skos:narrower ascl:112211 .
+ascl:112211 skos:narrower ascl:11221111 .
+ascl:112211 skos:narrower ascl:11221112 .
+ascl:112211 skos:narrower ascl:11221113 .
+ascl:112211 skos:narrower ascl:11221114 .
+ascl:1123 skos:narrower ascl:112311 .
+ascl:112311 skos:narrower ascl:11231111 .
+ascl:112311 skos:narrower ascl:11231112 .
+ascl:1181 skos:narrower ascl:118111 .
+ascl:118111 skos:narrower ascl:11811111 .
+ascl:118111 skos:narrower ascl:11811112 .
+ascl:118111 skos:narrower ascl:11811113 .
+ascl:118111 skos:narrower ascl:11811114 .
+ascl:118111 skos:narrower ascl:11811115 .
+ascl:118111 skos:narrower ascl:11811116 .
+ascl:118111 skos:narrower ascl:11811117 .
+ascl:118111 skos:narrower ascl:11811198 .
+ascl:118111 skos:narrower ascl:11811199 .
+ascl:1199 skos:narrower ascl:119999 .
+ascl:119999 skos:narrower ascl:11999911 .
+ascl:119999 skos:narrower ascl:11999912 .
+ascl:119999 skos:narrower ascl:11999913 .
+ascl:119999 skos:narrower ascl:11999914 .
+ascl:119999 skos:narrower ascl:11999915 .
+ascl:119999 skos:narrower ascl:11999916 .
+ascl:119999 skos:narrower ascl:11999917 .
+ascl:119999 skos:narrower ascl:11999918 .
+ascl:119999 skos:narrower ascl:11999921 .
+ascl:119999 skos:narrower ascl:11999999 .
+ascl:12 skos:narrower ascl:1211 .
+ascl:12 skos:narrower ascl:1212 .
+ascl:1211 skos:narrower ascl:121111 .
+ascl:1211 skos:narrower ascl:121112 .
+ascl:1211 skos:narrower ascl:121199 .
+ascl:121111 skos:narrower ascl:12111111 .
+ascl:121111 skos:narrower ascl:12111112 .
+ascl:121111 skos:narrower ascl:12111198 .
+ascl:121112 skos:narrower ascl:12111211 .
+ascl:121112 skos:narrower ascl:12111212 .
+ascl:121112 skos:narrower ascl:12111213 .
+ascl:121112 skos:narrower ascl:12111214 .
+ascl:121112 skos:narrower ascl:12111215 .
+ascl:121199 skos:narrower ascl:12119997 .
+ascl:121199 skos:narrower ascl:12119998 .
+ascl:121199 skos:narrower ascl:12119999 .
+ascl:1212 skos:narrower ascl:121211 .
+ascl:121211 skos:narrower ascl:12121111 .
+ascl:121211 skos:narrower ascl:12121198 .
+ascl:121211 skos:narrower ascl:12121199 .
+ascl:13 skos:narrower ascl:1311 .
+ascl:13 skos:narrower ascl:1312 .
+ascl:13 skos:narrower ascl:1313 .
+ascl:13 skos:narrower ascl:1314 .
+ascl:13 skos:narrower ascl:1315 .
+ascl:13 skos:narrower ascl:1316 .
+ascl:13 skos:narrower ascl:1399 .
+ascl:1311 skos:narrower ascl:131111 .
+ascl:131111 skos:narrower ascl:13111111 .
+ascl:131111 skos:narrower ascl:13111112 .
+ascl:131111 skos:narrower ascl:13111113 .
+ascl:131111 skos:narrower ascl:13111199 .
+ascl:1312 skos:narrower ascl:131211 .
+ascl:1312 skos:narrower ascl:131212 .
+ascl:131211 skos:narrower ascl:13121111 .
+ascl:131211 skos:narrower ascl:13121112 .
+ascl:131211 skos:narrower ascl:13121113 .
+ascl:131211 skos:narrower ascl:13121114 .
+ascl:131211 skos:narrower ascl:13121115 .
+ascl:131211 skos:narrower ascl:13121116 .
+ascl:131211 skos:narrower ascl:13121117 .
+ascl:131211 skos:narrower ascl:13121199 .
+ascl:131212 skos:narrower ascl:13121211 .
+ascl:131212 skos:narrower ascl:13121212 .
+ascl:131212 skos:narrower ascl:13121213 .
+ascl:131212 skos:narrower ascl:13121214 .
+ascl:131212 skos:narrower ascl:13121299 .
+ascl:1313 skos:narrower ascl:131311 .
+ascl:1313 skos:narrower ascl:131399 .
+ascl:131311 skos:narrower ascl:13131111 .
+ascl:131311 skos:narrower ascl:13131112 .
+ascl:131311 skos:narrower ascl:13131113 .
+ascl:131311 skos:narrower ascl:13131114 .
+ascl:131311 skos:narrower ascl:13131115 .
+ascl:131311 skos:narrower ascl:13131116 .
+ascl:131311 skos:narrower ascl:13131117 .
+ascl:131399 skos:narrower ascl:13139911 .
+ascl:131399 skos:narrower ascl:13139999 .
+ascl:1314 skos:narrower ascl:131411 .
+ascl:131411 skos:narrower ascl:13141111 .
+ascl:131411 skos:narrower ascl:13141199 .
+ascl:1315 skos:narrower ascl:131511 .
+ascl:1315 skos:narrower ascl:131512 .
+ascl:1315 skos:narrower ascl:131599 .
+ascl:131511 skos:narrower ascl:13151111 .
+ascl:131511 skos:narrower ascl:13151112 .
+ascl:131512 skos:narrower ascl:13151211 .
+ascl:131512 skos:narrower ascl:13151212 .
+ascl:131512 skos:narrower ascl:13151213 .
+ascl:131512 skos:narrower ascl:13151214 .
+ascl:131512 skos:narrower ascl:13151215 .
+ascl:131512 skos:narrower ascl:13151216 .
+ascl:131512 skos:narrower ascl:13151217 .
+ascl:131512 skos:narrower ascl:13151218 .
+ascl:131512 skos:narrower ascl:13151221 .
+ascl:131512 skos:narrower ascl:13151222 .
+ascl:131512 skos:narrower ascl:13151223 .
+ascl:131512 skos:narrower ascl:13151224 .
+ascl:131599 skos:narrower ascl:13159997 .
+ascl:131599 skos:narrower ascl:13159998 .
+ascl:131599 skos:narrower ascl:13159999 .
+ascl:1316 skos:narrower ascl:131611 .
+ascl:1316 skos:narrower ascl:131612 .
+ascl:1316 skos:narrower ascl:131699 .
+ascl:131611 skos:narrower ascl:13161111 .
+ascl:131611 skos:narrower ascl:13161112 .
+ascl:131611 skos:narrower ascl:13161113 .
+ascl:131611 skos:narrower ascl:13161114 .
+ascl:131611 skos:narrower ascl:13161115 .
+ascl:131611 skos:narrower ascl:13161116 .
+ascl:131612 skos:narrower ascl:13161211 .
+ascl:131612 skos:narrower ascl:13161212 .
+ascl:131612 skos:narrower ascl:13161213 .
+ascl:131612 skos:narrower ascl:13161214 .
+ascl:131612 skos:narrower ascl:13161215 .
+ascl:131612 skos:narrower ascl:13161216 .
+ascl:131612 skos:narrower ascl:13161217 .
+ascl:131612 skos:narrower ascl:13161218 .
+ascl:131612 skos:narrower ascl:13161221 .
+ascl:131612 skos:narrower ascl:13161222 .
+ascl:131612 skos:narrower ascl:13161223 .
+ascl:131612 skos:narrower ascl:13161224 .
+ascl:131612 skos:narrower ascl:13161225 .
+ascl:131612 skos:narrower ascl:13161226 .
+ascl:131612 skos:narrower ascl:13161227 .
+ascl:131612 skos:narrower ascl:13161228 .
+ascl:131612 skos:narrower ascl:13161231 .
+ascl:131612 skos:narrower ascl:13161232 .
+ascl:131699 skos:narrower ascl:13169999 .
+ascl:1399 skos:narrower ascl:139999 .
+ascl:139999 skos:narrower ascl:13999911 .
+ascl:139999 skos:narrower ascl:13999912 .
+ascl:139999 skos:narrower ascl:13999998 .
+ascl:139999 skos:narrower ascl:13999999 .
+ascl:14 skos:narrower ascl:1411 .
+ascl:14 skos:narrower ascl:1499 .
+ascl:1411 skos:narrower ascl:141111 .
+ascl:141111 skos:narrower ascl:14111111 .
+ascl:141111 skos:narrower ascl:14111112 .
+ascl:1499 skos:narrower ascl:149999 .
+ascl:149999 skos:narrower ascl:14999911 .
+ascl:149999 skos:narrower ascl:14999999 .
+ascl:15 skos:narrower ascl:1511 .
+ascl:15 skos:narrower ascl:1512 .
+ascl:15 skos:narrower ascl:1599 .
+ascl:1511 skos:narrower ascl:151111 .
+ascl:1511 skos:narrower ascl:151112 .
+ascl:151111 skos:narrower ascl:15111111 .
+ascl:151111 skos:narrower ascl:15111112 .
+ascl:151111 skos:narrower ascl:15111113 .
+ascl:151111 skos:narrower ascl:15111114 .
+ascl:151111 skos:narrower ascl:15111115 .
+ascl:151111 skos:narrower ascl:15111116 .
+ascl:151111 skos:narrower ascl:15111117 .
+ascl:151111 skos:narrower ascl:15111199 .
+ascl:151112 skos:narrower ascl:15111211 .
+ascl:151112 skos:narrower ascl:15111212 .
+ascl:151112 skos:narrower ascl:15111213 .
+ascl:151112 skos:narrower ascl:15111214 .
+ascl:151112 skos:narrower ascl:15111299 .
+ascl:1512 skos:narrower ascl:151211 .
+ascl:1512 skos:narrower ascl:151299 .
+ascl:151211 skos:narrower ascl:15121111 .
+ascl:151211 skos:narrower ascl:15121112 .
+ascl:151299 skos:narrower ascl:15129999 .
+ascl:1599 skos:narrower ascl:159999 .
+ascl:159999 skos:narrower ascl:15999911 .
+ascl:159999 skos:narrower ascl:15999999 .
+ascl:16 skos:narrower ascl:1611 .
+ascl:16 skos:narrower ascl:1612 .
+ascl:16 skos:narrower ascl:1699 .
+ascl:1611 skos:narrower ascl:161111 .
+ascl:161111 skos:narrower ascl:16111111 .
+ascl:161111 skos:narrower ascl:16111112 .
+ascl:161111 skos:narrower ascl:16111113 .
+ascl:1612 skos:narrower ascl:161211 .
+ascl:161211 skos:narrower ascl:16121111 .
+ascl:161211 skos:narrower ascl:16121112 .
+ascl:1699 skos:narrower ascl:169999 .
+ascl:169999 skos:narrower ascl:16999911 .
+ascl:169999 skos:narrower ascl:16999999 .
+ascl:17 skos:narrower ascl:1711 .
+ascl:17 skos:narrower ascl:1712 .
+ascl:17 skos:narrower ascl:1799 .
+ascl:1711 skos:narrower ascl:171111 .
+ascl:1711 skos:narrower ascl:171199 .
+ascl:171111 skos:narrower ascl:17111111 .
+ascl:171111 skos:narrower ascl:17111112 .
+ascl:171111 skos:narrower ascl:17111113 .
+ascl:171111 skos:narrower ascl:17111114 .
+ascl:171111 skos:narrower ascl:17111115 .
+ascl:171111 skos:narrower ascl:17111116 .
+ascl:171111 skos:narrower ascl:17111117 .
+ascl:171111 skos:narrower ascl:17111118 .
+ascl:171111 skos:narrower ascl:17111121 .
+ascl:171111 skos:narrower ascl:17111122 .
+ascl:171111 skos:narrower ascl:17111123 .
+ascl:171111 skos:narrower ascl:17111124 .
+ascl:171111 skos:narrower ascl:17111125 .
+ascl:171111 skos:narrower ascl:17111126 .
+ascl:171111 skos:narrower ascl:17111127 .
+ascl:171111 skos:narrower ascl:17111128 .
+ascl:171111 skos:narrower ascl:17111131 .
+ascl:171111 skos:narrower ascl:17111132 .
+ascl:171111 skos:narrower ascl:17111133 .
+ascl:171111 skos:narrower ascl:17111134 .
+ascl:171111 skos:narrower ascl:17111135 .
+ascl:171199 skos:narrower ascl:17119911 .
+ascl:171199 skos:narrower ascl:17119912 .
+ascl:171199 skos:narrower ascl:17119999 .
+ascl:1712 skos:narrower ascl:171211 .
+ascl:1712 skos:narrower ascl:171212 .
+ascl:171211 skos:narrower ascl:17121111 .
+ascl:171211 skos:narrower ascl:17121112 .
+ascl:171211 skos:narrower ascl:17121113 .
+ascl:171211 skos:narrower ascl:17121114 .
+ascl:171211 skos:narrower ascl:17121199 .
+ascl:171212 skos:narrower ascl:17121211 .
+ascl:171212 skos:narrower ascl:17121212 .
+ascl:171212 skos:narrower ascl:17121299 .
+ascl:1799 skos:narrower ascl:179999 .
+ascl:179999 skos:narrower ascl:17999911 .
+ascl:179999 skos:narrower ascl:17999999 .
+ascl:18 skos:narrower ascl:1811 .
+ascl:18 skos:narrower ascl:1899 .
+ascl:1811 skos:narrower ascl:181111 .
+ascl:181111 skos:narrower ascl:18111111 .
+ascl:181111 skos:narrower ascl:18111112 .
+ascl:181111 skos:narrower ascl:18111113 .
+ascl:181111 skos:narrower ascl:18111114 .
+ascl:181111 skos:narrower ascl:18111115 .
+ascl:181111 skos:narrower ascl:18111116 .
+ascl:181111 skos:narrower ascl:18111117 .
+ascl:181111 skos:narrower ascl:18111118 .
+ascl:1899 skos:narrower ascl:189999 .
+ascl:189999 skos:narrower ascl:18999999 .
+ascl:21 skos:narrower ascl:2111 .
+ascl:21 skos:narrower ascl:2199 .
+ascl:2111 skos:narrower ascl:211111 .
+ascl:211111 skos:narrower ascl:21111111 .
+ascl:211111 skos:narrower ascl:21111112 .
+ascl:211111 skos:narrower ascl:21111113 .
+ascl:211111 skos:narrower ascl:21111114 .
+ascl:2199 skos:narrower ascl:219999 .
+ascl:219999 skos:narrower ascl:21999911 .
+ascl:219999 skos:narrower ascl:21999999 .
+ascl:22 skos:narrower ascl:2211 .
+ascl:2211 skos:narrower ascl:221111 .
+ascl:221111 skos:narrower ascl:22111111 .
+ascl:221111 skos:narrower ascl:22111112 .
+ascl:221111 skos:narrower ascl:22111113 .
+ascl:221111 skos:narrower ascl:22111114 .
+ascl:221111 skos:narrower ascl:22111115 .
+ascl:23 skos:narrower ascl:2311 .
+ascl:23 skos:narrower ascl:2312 .
+ascl:2311 skos:narrower ascl:231111 .
+ascl:231111 skos:narrower ascl:23111111 .
+ascl:231111 skos:narrower ascl:23111112 .
+ascl:231111 skos:narrower ascl:23111113 .
+ascl:231111 skos:narrower ascl:23111114 .
+ascl:231111 skos:narrower ascl:23111115 .
+ascl:231111 skos:narrower ascl:23111199 .
+ascl:2312 skos:narrower ascl:231211 .
+ascl:2312 skos:narrower ascl:231212 .
+ascl:2312 skos:narrower ascl:231213 .
+ascl:2312 skos:narrower ascl:231299 .
+ascl:231211 skos:narrower ascl:23121111 .
+ascl:231211 skos:narrower ascl:23121112 .
+ascl:231211 skos:narrower ascl:23121113 .
+ascl:231211 skos:narrower ascl:23121114 .
+ascl:231211 skos:narrower ascl:23121115 .
+ascl:231211 skos:narrower ascl:23121116 .
+ascl:231211 skos:narrower ascl:23121117 .
+ascl:231211 skos:narrower ascl:23121118 .
+ascl:231211 skos:narrower ascl:23121121 .
+ascl:231212 skos:narrower ascl:23121211 .
+ascl:231212 skos:narrower ascl:23121212 .
+ascl:231212 skos:narrower ascl:23121213 .
+ascl:231213 skos:narrower ascl:23121311 .
+ascl:231213 skos:narrower ascl:23121312 .
+ascl:231299 skos:narrower ascl:23129911 .
+ascl:231299 skos:narrower ascl:23129999 .
+ascl:24 skos:narrower ascl:2411 .
+ascl:2411 skos:narrower ascl:241111 .
+ascl:241111 skos:narrower ascl:24111111 .
+ascl:241111 skos:narrower ascl:24111199 .
+ascl:25 skos:narrower ascl:2511 .
+ascl:2511 skos:narrower ascl:251111 .
+ascl:251111 skos:narrower ascl:25111111 .
+ascl:251111 skos:narrower ascl:25111112 .
+ascl:251111 skos:narrower ascl:25111113 .
+ascl:251111 skos:narrower ascl:25111199 .
+ascl:26 skos:narrower ascl:2611 .
+ascl:2611 skos:narrower ascl:261111 .
+ascl:261111 skos:narrower ascl:26111111 .
+ascl:261111 skos:narrower ascl:26111112 .
+ascl:27 skos:narrower ascl:2711 .
+ascl:27 skos:narrower ascl:2799 .
+ascl:2711 skos:narrower ascl:271111 .
+ascl:2711 skos:narrower ascl:271112 .
+ascl:2711 skos:narrower ascl:271113 .
+ascl:2711 skos:narrower ascl:271114 .
+ascl:2711 skos:narrower ascl:271199 .
+ascl:271111 skos:narrower ascl:27111111 .
+ascl:271111 skos:narrower ascl:27111112 .
+ascl:271111 skos:narrower ascl:27111113 .
+ascl:271111 skos:narrower ascl:27111114 .
+ascl:271111 skos:narrower ascl:27111115 .
+ascl:271112 skos:narrower ascl:27111211 .
+ascl:271112 skos:narrower ascl:27111212 .
+ascl:271113 skos:narrower ascl:27111311 .
+ascl:271113 skos:narrower ascl:27111312 .
+ascl:271113 skos:narrower ascl:27111313 .
+ascl:271113 skos:narrower ascl:27111314 .
+ascl:271114 skos:narrower ascl:27111411 .
+ascl:271114 skos:narrower ascl:27111412 .
+ascl:271114 skos:narrower ascl:27111413 .
+ascl:271114 skos:narrower ascl:27111414 .
+ascl:271114 skos:narrower ascl:27111415 .
+ascl:271114 skos:narrower ascl:27111416 .
+ascl:271114 skos:narrower ascl:27111417 .
+ascl:271114 skos:narrower ascl:27111418 .
+ascl:271114 skos:narrower ascl:27111421 .
+ascl:271114 skos:narrower ascl:27111422 .
+ascl:271114 skos:narrower ascl:27111423 .
+ascl:271114 skos:narrower ascl:27111424 .
+ascl:271114 skos:narrower ascl:27111425 .
+ascl:271114 skos:narrower ascl:27111426 .
+ascl:271199 skos:narrower ascl:27119911 .
+ascl:271199 skos:narrower ascl:27119912 .
+ascl:271199 skos:narrower ascl:27119913 .
+ascl:271199 skos:narrower ascl:27119999 .
+ascl:2799 skos:narrower ascl:279999 .
+ascl:279999 skos:narrower ascl:27999999 .
+ascl:91 skos:narrower ascl:9111 .
+ascl:91 skos:narrower ascl:9171 .
+ascl:91 skos:narrower ascl:9198 .
+ascl:91 skos:narrower ascl:9199 .
+ascl:9111 skos:narrower ascl:911111 .
+ascl:911111 skos:narrower ascl:91111111 .
+ascl:911111 skos:narrower ascl:91111198 .
+ascl:911111 skos:narrower ascl:91111199 .
+ascl:9171 skos:narrower ascl:917111 .
+ascl:917111 skos:narrower ascl:91711111 .
+ascl:917111 skos:narrower ascl:91711112 .
+ascl:917111 skos:narrower ascl:91711199 .
+ascl:9198 skos:narrower ascl:919811 .
+ascl:919811 skos:narrower ascl:91981111 .
+ascl:9199 skos:narrower ascl:919911 .
+ascl:919911 skos:narrower ascl:91991111 .

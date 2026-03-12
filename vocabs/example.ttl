@@ -1,0 +1,26 @@
+@prefix ex: <https://makeitatriple.com/def/example/> .
+@prefix cs: <https://makeitatriple.com/def/example> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:title "Example Vocabulary"@en ;
+    skos:prefLabel "Example Vocabulary"@en ;
+    skos:definition "A tiny test vocabulary for makeitatriple."@en ;
+.
+
+ex:one
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "One"@en ;
+    skos:definition "The first example concept."@en ;
+.
+
+ex:two
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Two"@en ;
+    skos:definition "The second example concept."@en ;
+    skos:broader ex:one ;
+.
