@@ -1,0 +1,666 @@
+Les — that’s not a wacky idea. It’s actually quite a **natural inversion of the usual workflow**, and people in the SHACL / profiles world have been circling around something like this for a while without quite naming it. Your “**SHACL-REQ**” framing is a good way of making the pattern explicit.
+
+Let me unpack why the idea has merit, where it fits, and what the workflow might look like.
+
+---
+
+# 1. The current problem you’re reacting to
+
+Right now the typical pattern is:
+
+1. **Specification text** (HTML or PDF) defines requirements.
+2. Each requirement gets an identifier like
+   `THES-01`, `VP-02`, etc.
+3. SHACL shapes **implement** those requirements.
+4. Validation messages try to reference them.
+
+Example:
+
+```turtle
+ex:ConceptPrefLabelShape
+    a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:message "Concepts must have a prefLabel (THES-01)" ;
+    ] .
+```
+
+Problems:
+
+* **Two sources of truth**
+* SHACL messages drift from spec text
+* Requirements get renumbered
+* Anchors break
+* Implementations lag behind specs
+
+You already improved this by doing:
+
+```
+Requirement = IRI
+SHACL references requirement
+```
+
+That’s already better.
+
+But you’re proposing the **next step**.
+
+---
+
+# 2. The inversion you’re suggesting
+
+Instead of:
+
+```
+Specification → SHACL
+```
+
+you propose:
+
+```
+SHACL → Requirements
+```
+
+The **SHACL graph becomes the normative definition of constraints**.
+
+Requirements become **derived artefacts**.
+
+This is very similar to how:
+
+* **OpenAPI generates documentation**
+* **SQL schemas generate ER diagrams**
+* **SHACL-UI generates forms**
+
+Your idea:
+
+> SHACL generates the requirement catalogue.
+
+---
+
+# 3. Why this actually works well
+
+SHACL already contains everything a requirement needs.
+
+A shape contains:
+
+* target
+* constraint
+* severity
+* message
+* path
+* cardinality
+* datatype
+* description
+
+Example shape:
+
+```turtle
+thes:ConceptPrefLabelShape
+    a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:message "Concepts must have a prefLabel" ;
+    ] .
+```
+
+From this you can generate a requirement:
+
+```
+THES-01
+Each skos:Concept MUST have at least one skos:prefLabel.
+```
+
+The shape already encodes the logic.
+
+---
+
+# 4. SHACL-REQ architecture (your idea formalised)
+
+### Layer 1 — SHACL shapes (normative)
+
+```turtle
+thes:ConceptPrefLabelShape
+    a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:name "Concept prefLabel requirement" ;
+        sh:description "Each Concept must have at least one prefLabel." ;
+    ] .
+```
+
+---
+
+### Layer 2 — requirement graph (generated)
+
+Generated RDF:
+
+```turtle
+thesreq:THES-01
+    a req:Requirement ;
+    dcterms:title "Concept prefLabel requirement" ;
+    req:statement "Each skos:Concept MUST have at least one skos:prefLabel." ;
+    req:implementedBy thes:ConceptPrefLabelShape .
+```
+
+---
+
+### Layer 3 — HTML spec (generated)
+
+```
+THES-01
+Each skos:Concept MUST have at least one skos:prefLabel.
+Implemented by: ConceptPrefLabelShape
+```
+
+---
+
+# 5. Advantages
+
+## Single source of truth
+
+Only one authoritative place:
+
+```
+SHACL shapes
+```
+
+---
+
+## Validation and specification stay aligned
+
+Impossible for them to drift.
+
+---
+
+## Requirements get stable IRIs
+
+```
+https://example.org/thespub/req/THES-01
+```
+
+Generated deterministically.
+
+---
+
+## Machine readable specification
+
+Your requirements become **queryable RDF**, not just HTML text.
+
+---
+
+## Tooling possibilities
+
+You could automatically generate:
+
+* specification docs
+* requirement tables
+* conformance tests
+* validator output linking to requirement IRIs
+
+---
+
+# 6. This aligns with your existing instincts
+
+Your ThesPub design already leans this way.
+
+You already treat requirements as:
+
+```
+first-class RDF resources
+```
+
+You already use:
+
+```
+req:Requirement
+```
+
+So SHACL-REQ is really just:
+
+```
+SHACL → req:Requirement
+```
+
+---
+
+# 7. Important philosophical distinction
+
+You must decide whether SHACL is:
+
+### A. Normative
+
+```
+SHACL defines the profile
+```
+
+or
+
+### B. Informative
+
+```
+SHACL implements the profile
+```
+
+Your idea moves strongly to **A**.
+
+Many standards bodies hesitate here because:
+
+* SHACL is seen as implementation tech
+* some communities prefer prose specs
+
+But for a **data profile**, SHACL is arguably the *most precise normative form*.
+
+---
+
+# 8. The minimal SHACL-REQ pattern
+
+You would only need one extra property.
+
+Example:
+
+```turtle
+thes:ConceptPrefLabelShape
+    a sh:NodeShape ;
+    shaclreq:requirement thesreq:THES-01 .
+```
+
+Then a generator script can create the requirement graph.
+
+---
+
+# 9. Where this becomes powerful
+
+For something like **ThesPub** or **VocPub** you could generate:
+
+* requirements section
+* conformance tables
+* test suites
+
+directly from the shapes.
+
+This would dramatically reduce spec maintenance.
+
+---
+
+# 10. Where you need caution
+
+Two tricky areas:
+
+### 1. Some requirements aren't SHACL expressible
+
+Example:
+
+```
+ConceptScheme IRIs SHOULD be persistent.
+```
+
+or
+
+```
+Publishers should provide human documentation.
+```
+
+These are governance requirements.
+
+---
+
+### 2. SHACL messages are not always normative text
+
+You’d need a way to store **clean requirement statements**.
+
+Example property:
+
+```
+shaclreq:statement
+```
+
+---
+
+# 11. My verdict
+
+Your idea is **very solid**, particularly for:
+
+* ThesPub
+* VocPub
+* data profile specifications
+* semantic vocabularies
+
+It’s actually a natural next step after:
+
+```
+SHACL-UI
+SHACL-rules
+SHACL-AF
+```
+
+I’d describe it as:
+
+> **SHACL-REQ: generating machine-readable requirements from SHACL constraint graphs.**
+
+---
+
+# 12. One thing I suspect you'd enjoy
+
+There’s a very elegant way to structure this so that:
+
+```
+SHACL shapes ARE the requirements
+```
+
+Meaning you don’t even generate another graph.
+
+The shapes simply **become instances of `req:Requirement`**.
+
+It’s surprisingly clean.
+
+If you want, I can sketch that model — I think it might click nicely with how you designed **ThesPub**.
+
+Yes — and I think this version is the most elegant.
+
+## The key move
+
+Instead of:
+
+* Shape implements requirement
+* Requirement is separate resource
+
+you say:
+
+> **The Shape itself is the Requirement**
+
+So a shape is not just a validator artefact. It is also a first-class requirement resource.
+
+That gives you:
+
+* one IRI
+* one source of truth
+* one object to document
+* one object to validate with
+
+## Basic pattern
+
+A shape can be both:
+
+* `sh:NodeShape` or `sh:PropertyShape`
+* `req:Requirement`
+
+For example:
+
+```turtle
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix req:     <https://w3id.org/requirements#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix thes:    <https://example.org/def/thespub/validator#> .
+
+thes:THES-01
+    a sh:NodeShape , req:Requirement ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+    ] ;
+    dcterms:title "Concept prefLabel requirement"@en ;
+    dcterms:description "Each skos:Concept must have at least one skos:prefLabel."@en .
+```
+
+That is already pretty compelling.
+
+## Why this is strong
+
+### 1. No duplication
+
+You do not need:
+
+* `thes:THES-01` as requirement
+* `thes:ConceptPrefLabelShape` as shape
+
+Those become the same thing.
+
+### 2. Stable identifiers
+
+Your requirement number is the shape IRI:
+
+```turtle
+thes:THES-01
+```
+
+That is lovely and clean.
+
+### 3. Documentation becomes easier
+
+You can generate a requirements table directly from the shapes:
+
+* IRI
+* title
+* description
+* target
+* constraint details
+* severity
+
+### 4. Validation reports can point straight to the requirement
+
+If a SHACL engine reports the source shape, that shape is already the requirement IRI.
+
+No mapping layer needed.
+
+## What metadata would the shape-requirement need?
+
+I’d keep a small requirement annotation layer on top of SHACL.
+
+Something like:
+
+```turtle
+@prefix sh:        <http://www.w3.org/ns/shacl#> .
+@prefix req:       <https://w3id.org/requirements#> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix schema:    <https://schema.org/> .
+@prefix thes:      <https://example.org/def/thespub/validator#> .
+
+thes:THES-01
+    a sh:NodeShape , req:Requirement ;
+    dcterms:title "Concept prefLabel requirement"@en ;
+    dcterms:description "Each skos:Concept must have at least one skos:prefLabel."@en ;
+    schema:identifier "THES-01" ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "Concept must have at least one prefLabel."@en
+    ] .
+```
+
+This gives you both:
+
+* human-readable requirement text
+* executable validation logic
+
+## Where this gets really nice
+
+You can distinguish between:
+
+* **normative requirement text**
+* **validation message**
+
+Those are not the same thing.
+
+For example:
+
+```turtle
+dcterms:description "Each skos:Concept must have at least one skos:prefLabel."@en ;
+```
+
+is the requirement statement.
+
+But:
+
+```turtle
+sh:message "Add a skos:prefLabel to this Concept."@en
+```
+
+is validator guidance.
+
+That separation solves one of the big problems you’ve been wrestling with.
+
+## You may want one extra property
+
+I would consider adding a dedicated property for the normative statement, instead of overloading `dcterms:description`.
+
+Maybe:
+
+```turtle
+thes:requirementStatement
+```
+
+or more generally:
+
+```turtle
+prof:hasResourceRole`-style patterns won't quite fit
+```
+
+But honestly, `dcterms:description` is fine if you want to stay minimalist.
+
+A slightly richer pattern could be:
+
+```turtle
+thes:THES-01
+    a sh:NodeShape , req:Requirement ;
+    dcterms:title "Concept prefLabel requirement"@en ;
+    skos:definition "Each skos:Concept must have at least one skos:prefLabel."@en ;
+```
+
+I could imagine you liking `skos:definition` here, because it has a normative, crisp feel.
+
+## NodeShape vs PropertyShape question
+
+This model works for both.
+
+Example property-shape-as-requirement:
+
+```turtle
+thes:THES-02
+    a sh:PropertyShape , req:Requirement ;
+    sh:path skos:prefLabel ;
+    sh:minCount 1 ;
+    dcterms:title "prefLabel cardinality"@en ;
+    dcterms:description "A required property must occur at least once."@en .
+```
+
+But I suspect for readability and reporting, you’ll prefer **NodeShapes as requirement units**, with embedded property constraints.
+
+That gives each requirement a nice self-contained identity.
+
+## What about non-SHACL-expressible requirements?
+
+This is the main limitation.
+
+Some requirements are about:
+
+* persistence
+* governance
+* publication process
+* human-readable documentation
+* URI policy
+
+Those may not be expressible in core SHACL.
+
+You have two choices:
+
+### Option A
+
+Allow `req:Requirement` resources that are not SHACL shapes.
+
+So:
+
+* some requirements are executable
+* some are prose-only
+
+### Option B
+
+Keep SHACL-REQ only for the executable subset.
+
+I think Option A is more robust.
+
+That gives you a single requirements universe, where some members are also shapes.
+
+Like this:
+
+```turtle
+thes:THES-01 a req:Requirement , sh:NodeShape .
+thes:THES-02 a req:Requirement , sh:NodeShape .
+thes:THES-99 a req:Requirement .
+```
+
+That is actually a very clean architecture.
+
+## This may be the sweet spot
+
+So the mature version of SHACL-REQ might be:
+
+> All requirements are RDF resources.
+> Some requirements are also SHACL shapes.
+> When they are, the shape is the normative and executable form of the requirement.
+
+That avoids overclaiming that SHACL can do everything, while still making SHACL central.
+
+## Why this is better than “SHACL generates requirements”
+
+Because it avoids a second artefact layer.
+
+Instead of:
+
+* shape
+* generated requirement resource
+
+you just have:
+
+* requirement resource, optionally executable as a shape
+
+That is simpler, more Latour-friendly really: fewer intermediaries.
+
+## Very compact design pattern
+
+Here’s the pattern I’d seriously consider for ThesPub:
+
+```turtle
+@prefix tpv:     <https://data.example.org/def/thespub/validator#> .
+@prefix req:     <https://w3id.org/requirements#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+tpv:THES-01
+    a req:Requirement , sh:NodeShape ;
+    dcterms:title "Concept prefLabel requirement"@en ;
+    dcterms:description "Each skos:Concept must have at least one skos:prefLabel."@en ;
+    sh:targetClass skos:Concept ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "Concept must have at least one prefLabel."@en
+    ] .
+```
+
+Then your HTML spec can be generated from the validator graph.
+
+## My recommendation
+
+For ThesPub, I’d explore this model:
+
+* Requirement IRIs live in the validator namespace
+* Each executable requirement is both `req:Requirement` and `sh:NodeShape` or `sh:PropertyShape`
+* Non-executable requirements are plain `req:Requirement`
+* `dcterms:title` + `dcterms:description` carry the normative prose
+* `sh:message` carries the validator-facing guidance
+
+That gives you a very elegant SHACL-REQ story.
+
+If you want, next I can sketch a **minimal ontology for SHACL-REQ itself** — just enough classes/properties to describe this pattern cleanly.
